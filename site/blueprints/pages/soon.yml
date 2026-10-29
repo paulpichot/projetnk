@@ -16,6 +16,3 @@ fields:
     label: Texte
     type: textarea
     buttons: false
-  newsletter_action:
-    label: URL d'inscription à la newsletter
-    type: url

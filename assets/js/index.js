@@ -4,6 +4,7 @@ const components = [
     { selector: '[data-cookies]', load: () => import('./custom/cookies').then((m) => m.initializeCookies) },
     { selector: '[data-countdown]', load: () => import('./custom/countdown').then((m) => m.initializeCountdown) },
     { selector: '[data-copy]', load: () => import('./custom/share').then((m) => m.initializeShare) },
+    { selector: '[data-newsletter]', load: () => import('./custom/newsletter').then((m) => m.initializeNewsletter) },
     { selector: '[data-video]', load: () => import('./custom/video').then((m) => m.initializeVideo) },
 ];
 

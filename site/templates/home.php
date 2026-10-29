@@ -69,7 +69,7 @@
             <h2 class="eyebrow"><?= $page->newsletter_label()->esc() ?></h2>
             <p class="title-h2 contact__title"><?= $page->newsletter_title()->esc() ?></p>
             <div class="contact__text"><?= $page->newsletter_text()->kt() ?></div>
-            <?php snippet('components/newsletter', ['action' => $page->newsletter_action()->value()]) ?>
+            <?php snippet('components/newsletter') ?>
         </div>
     </div>
 </section>

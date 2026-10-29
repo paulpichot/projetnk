@@ -18,6 +18,36 @@
     color: var(--color-encre-60);
 }
 
+/* États (data-state posé par le JS) */
+.newsletter__form[data-state="error"] .newsletter__input {
+    box-shadow: inset 0 -2px var(--color-corail-fonce);
+}
+
+.newsletter__form[data-state="sending"] .btn {
+    opacity: 0.6;
+}
+
+.newsletter__form[data-state="success"] .btn {
+    color: var(--color-ivoire);
+    background-color: var(--color-encre);
+    border-color: var(--color-encre);
+}
+
+.newsletter__message {
+    margin-top: var(--space-2xs);
+    font-size: var(--fs-small);
+    line-height: var(--lh-xs);
+    color: var(--color-corail-fonce);
+}
+
+.newsletter__message:empty {
+    display: none;
+}
+
+.newsletter__message[data-state="success"] {
+    color: var(--color-encre-60);
+}
+
 .newsletter__mention {
     max-width: 29.75rem; /* 476px */
     margin-top: 1.5625rem; /* 25px */
@@ -28,6 +58,10 @@
 }
 
 @media (max-width: 1023px) {
+    .newsletter__message {
+        font-size: var(--fs-xs);
+    }
+
     .newsletter__mention {
         margin-top: 1.0625rem; /* 17px */
     }
