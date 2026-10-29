@@ -1,0 +1,205 @@
+/* Accueil — espacements relevés sur la maquette Homepage (1440px) */
+
+/* Hero : l'image remonte sous le titre */
+.hero__title {
+    position: relative;
+    z-index: 1;
+    padding-top: 10.6875rem; /* 171px */
+}
+
+.hero__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -10.9375rem; /* 175px */
+}
+
+/* Qui sommes-nous */
+.about {
+    padding-block: var(--space-3xl);
+}
+
+.about__grid {
+    display: grid;
+    grid-template-columns: 17.25rem 1fr; /* 276px */
+}
+
+.about__actions-label {
+    grid-column: 1 / -1;
+    margin-block: 5.5rem 2.75rem; /* 88px 44px */
+}
+
+.about__actions {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5.875rem; /* 94px */
+}
+
+.about__text p + p {
+    margin-top: var(--space-m);
+}
+
+/* NK : Natural Killers (fond sable, illustration des cellules) */
+.nk {
+    padding-block: 17.5rem 19.375rem; /* 280px 310px */
+    background-image: url("images/nk-cellules.webp");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 5.921875rem) top; /* décalée de 95px à droite du centre */
+    background-size: 65.59375rem auto; /* 1049.5px */
+}
+
+.nk__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nk__text {
+    width: 24.875rem; /* 398px */
+}
+
+/* Équipe, bureau */
+.team {
+    padding-block: var(--space-3xl);
+}
+
+.team__label {
+    margin-block: var(--space-xl) var(--space-m);
+}
+
+.team__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--gutter);
+    align-items: start;
+}
+
+.team__board {
+    margin-top: 5rem; /* 80px */
+}
+
+.team__board-label {
+    grid-column: 1 / span 2;
+}
+
+/* Conseil scientifique (fond ardoise) */
+.council {
+    padding-block: 5.5rem; /* 88px */
+}
+
+/* Contact et newsletter */
+.contact {
+    padding-block: 5.5rem 5.4375rem; /* 88px 87px */
+}
+
+.contact__grid {
+    display: grid;
+    grid-template-columns: 45rem 1fr; /* 720px */
+}
+
+.contact__title {
+    margin-top: var(--space-s);
+}
+
+.contact__text {
+    margin-block: 1.375rem var(--space-s); /* 22px 24px */
+}
+
+/* Mobile (maquette 375px) */
+@media (max-width: 1023px) {
+    /* Les retours à la ligne forcés ne valent que pour le desktop */
+    .about br,
+    .team__text br,
+    .contact br {
+        display: none;
+    }
+
+    .hero__title {
+        padding-top: 3.5625rem; /* 57px */
+    }
+
+    .hero__image {
+        aspect-ratio: 375 / 160;
+        margin-top: 6.6875rem; /* 107px */
+        object-fit: cover;
+    }
+
+    .about {
+        padding-block: 3.5rem; /* 56px */
+    }
+
+    .about__grid {
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+
+    .about__text p + p {
+        margin-top: var(--space-s);
+    }
+
+    .about__actions-label {
+        margin-block: 2.5rem 1.4375rem; /* 40px 23px */
+    }
+
+    .about__actions {
+        grid-template-columns: 1fr;
+        row-gap: var(--space-m);
+    }
+
+    .nk {
+        padding-block: 4.5rem 6.375rem; /* 72px 102px */
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .nk__inner {
+        flex-direction: column;
+    }
+
+    .nk__text {
+        width: auto;
+        margin-top: 0.6875rem; /* 11px */
+    }
+
+    .team {
+        padding-block: 3.5rem;
+    }
+
+    .team__label {
+        margin-block: 2.5rem var(--space-s);
+    }
+
+    .team__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team__board {
+        margin-top: 7rem;
+    }
+
+    .team__board-label {
+        grid-column: auto;
+        margin-bottom: calc(var(--space-s) - var(--gutter));
+    }
+
+    .council {
+        padding-block: 3.5rem;
+    }
+
+    .contact {
+        padding-block: 3.5rem;
+    }
+
+    .contact__grid {
+        grid-template-columns: minmax(0, 1fr);
+        row-gap: 3.5rem;
+    }
+
+    .contact__title {
+        margin-top: var(--space-xs);
+    }
+
+    .contact__text {
+        margin-block: var(--space-xs) 1.0625rem; /* 16px 17px */
+    }
+}

@@ -1,0 +1,162 @@
+title: Nous soutenir
+icon: heart
+
+tabs:
+  intro:
+    label: Campagne
+    columns:
+      main:
+        width: 2/3
+        fields:
+          headline:
+            label: Accroche
+            type: textarea
+            buttons: false
+          video:
+            label: Vidéo (YouTube ou Vimeo)
+            type: url
+          video_poster:
+            label: Aperçu de la vidéo
+            type: files
+            uploads: image
+            max: 1
+          theme:
+            label: Thématique
+            type: text
+            width: 1/3
+          share_url:
+            label: Lien « Partager »
+            type: url
+            width: 1/3
+          follow_url:
+            label: Lien « Suivre »
+            type: url
+            width: 1/3
+      sidebar:
+        width: 1/3
+        fields:
+          contributions:
+            label: Contributions
+            type: number
+            width: 1/2
+          goal:
+            label: Objectif
+            type: number
+            width: 1/2
+          next_goal:
+            label: Prochain objectif
+            type: number
+            width: 1/2
+          contributors:
+            label: Contributeur·rices
+            type: number
+            width: 1/2
+          end_date:
+            label: Fin de la campagne
+            type: date
+          minimum:
+            label: Mention montant
+            type: text
+          donate_url:
+            label: Lien « Contribuer »
+            type: url
+          tax:
+            label: Mention fiscale
+            type: text
+          secure:
+            label: Mention paiement
+            type: text
+          secure_url:
+            label: Lien de la mention paiement
+            type: url
+
+  budget:
+    label: Dépenses
+    fields:
+      budget_label:
+        label: Sur-titre
+        type: text
+        width: 1/2
+      budget_text:
+        label: Texte
+        type: textarea
+        buttons: false
+      budget_total:
+        label: Total
+        type: text
+        width: 1/2
+      budget_period:
+        label: Période
+        type: text
+        width: 1/2
+      budget:
+        label: Postes de dépenses
+        type: structure
+        fields:
+          title:
+            label: Poste
+            type: text
+          text:
+            label: Détail
+            type: text
+          amount:
+            label: Montant
+            type: text
+          share:
+            label: Part (%)
+            type: number
+            step: 0.1
+
+  faq:
+    label: FAQ
+    fields:
+      faq:
+        label: Questions
+        type: structure
+        fields:
+          question:
+            label: Question
+            type: text
+          answer:
+            label: Réponse
+            type: textarea
+
+  funders:
+    label: Financeurs
+    fields:
+      funders_label:
+        label: Sur-titre
+        type: text
+      funders_text:
+        label: Texte
+        type: textarea
+        buttons: false
+      funders:
+        label: Logos
+        type: files
+        uploads: image
+
+  feature:
+    label: Vidéo
+    fields:
+      feature_show:
+        label: Afficher la section
+        type: toggle
+      feature_title:
+        label: Titre
+        type: text
+      feature_text:
+        label: Texte
+        type: textarea
+        buttons: false
+      feature_video:
+        label: Vidéo (YouTube ou Vimeo)
+        type: url
+      feature_poster:
+        label: Aperçu de la vidéo
+        type: files
+        uploads: image
+        max: 1
+      feature_label:
+        label: Étiquette
+        type: text

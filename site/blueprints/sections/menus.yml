@@ -1,0 +1,9 @@
+type: fields
+fields:
+  menuprimary: fields/menu-primary
+  menucta: fields/menu-cta
+  menuholding: fields/menu-holding
+  menumobile: fields/menu-mobile
+  menufooter: fields/menu-footer
+  menusocials: fields/menu-socials
+  menulegal: fields/menu-legal

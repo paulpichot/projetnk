@@ -1,0 +1,41 @@
+Title: Politique de confidentialité
+
+----
+
+Updated: 2026-09-24
+
+----
+
+Intro: Projet NK attache une grande importance à la protection de vos données personnelles. Cette politique explique quelles données nous collectons, pourquoi, et quels sont vos droits.
+
+----
+
+Text:
+
+## Responsable du traitement
+
+Projet NK, association loi 1901, [adresse du siège], représentée par [Prénom Nom]. Contact : contact@projet-nk.org
+
+## Données collectées
+
+Nous collectons uniquement les données que vous nous transmettez : nom, prénom, adresse e-mail, et, en cas de don, les informations nécessaires à l’émission d’un reçu fiscal. Les données bancaires sont traitées directement par notre prestataire de paiement et ne sont jamais stockées par l’association.
+
+## Finalités
+
+Vos données servent à : traiter vos dons et émettre vos reçus fiscaux ; vous envoyer notre newsletter si vous y êtes inscrit·e ; répondre à vos messages ; mesurer l’audience du site de façon anonyme.
+
+## Base légale
+
+Les traitements reposent sur votre consentement (newsletter, cookies de mesure d’audience), sur l’exécution de votre don, et sur nos obligations légales (conservation comptable des reçus fiscaux).
+
+## Durée de conservation
+
+Données de donateur·rices : 6 ans à compter du dernier don. Newsletter : jusqu’à votre désinscription. Messages de contact : 3 ans à compter du dernier échange.
+
+## Destinataires
+
+Vos données sont destinées exclusivement à l’équipe de Projet NK et à nos prestataires techniques (paiement, envoi d’e-mails, hébergement), liés par des engagements de confidentialité. Elles ne sont jamais vendues ni cédées.
+
+## Vos droits
+
+Conformément au RGPD, vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité de vos données. Pour les exercer, écrivez à contact@projet-nk.org. Vous pouvez également introduire une réclamation auprès de la CNIL (www.cnil.fr).

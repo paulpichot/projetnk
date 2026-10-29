@@ -1,0 +1,22 @@
+type: structure
+label: Menu principal
+fields:
+  title:
+    type: textarea
+    label: Texte affiché
+  linkType:
+    type: select
+    label: Type de lien
+    options:
+      page: Page interne
+      url: URL personnalisée
+  pageLink:
+    type: pages
+    label: Sélectionner une page
+    when:
+      linkType: page
+  customUrl:
+    type: text
+    label: URL personnalisée
+    when:
+      linkType: url

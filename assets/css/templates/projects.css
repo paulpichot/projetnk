@@ -1,0 +1,80 @@
+/* Page Projets : projets, encart « Prochainement » et engagements illustrés */
+@media (min-width: 1024px) {
+    body:has(.projects-hero) .header {
+        background-color: var(--color-sable);
+    }
+}
+
+.projects-hero {
+    position: relative;
+    padding-block: 11.3125rem 15.8125rem; /* 181px 253px */
+    background-color: var(--color-sable);
+}
+
+.projects-hero__image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.projects-hero__list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    max-width: calc(52.5rem + 2 * var(--page-margin)); /* 840px */
+}
+
+.projects-hero__item {
+    padding: var(--space-s);
+    font-size: var(--fs-card);
+    line-height: var(--lh-card);
+    font-weight: var(--fw-semibold);
+    background-color: var(--color-ivoire);
+}
+
+/* Encart « Prochainement » */
+.upcoming {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-m);
+    background-color: var(--color-ivoire);
+}
+
+.upcoming__title {
+    margin-top: 0.75rem; /* 12px */
+}
+
+.upcoming__text {
+    margin-block: 0.75rem var(--space-s); /* 12px 24px */
+}
+
+.upcoming__button {
+    margin-top: auto;
+}
+
+@media (max-width: 1023px) {
+    .projects:has(+ .projects-hero) {
+        padding-bottom: 0;
+    }
+
+    .projects-hero {
+        padding-block: 2.5rem 12.5rem; /* 40px 200px */
+    }
+
+    .upcoming {
+        padding: var(--space-s) var(--page-margin);
+    }
+
+    .upcoming__text br {
+        display: none;
+    }
+
+    .projects-hero__list {
+        gap: 0.75rem;
+    }
+}

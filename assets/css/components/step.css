@@ -1,0 +1,21 @@
+/* Étape numérotée : numéro corail suivi d'un filet */
+.step__number {
+    display: flex;
+    align-items: center;
+    gap: var(--space-s);
+    color: var(--color-corail);
+}
+
+.step__number::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: currentColor;
+}
+
+.step__text {
+    margin-top: var(--space-s);
+    font-size: var(--fs-card);
+    line-height: var(--lh-card);
+    font-weight: var(--fw-semibold);
+}

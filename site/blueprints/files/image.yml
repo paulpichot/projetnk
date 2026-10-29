@@ -1,0 +1,16 @@
+title: Image
+
+accept:
+  mime: image/*
+
+fields:
+  alt:
+    label: Texte alternatif
+    type: text
+    help: Description de l'image pour l'accessibilité
+    width: 1/2
+  
+  caption:
+    label: Légende
+    type: text
+    width: 1/2

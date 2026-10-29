@@ -1,0 +1,21 @@
+title: Bientôt
+icon: clock
+
+fields:
+  launch:
+    label: Date de lancement
+    type: date
+    time: true
+    required: true
+    width: 1/2
+  email:
+    label: E-mail de contact
+    type: email
+    width: 1/2
+  text:
+    label: Texte
+    type: textarea
+    buttons: false
+  newsletter_action:
+    label: URL d'inscription à la newsletter
+    type: url

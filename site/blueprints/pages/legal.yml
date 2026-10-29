@@ -1,0 +1,17 @@
+title: Page légale
+icon: document
+
+fields:
+  updated:
+    label: Dernière mise à jour
+    type: date
+    display: DD/MM/YYYY
+    width: 1/3
+  intro:
+    label: Introduction
+    type: textarea
+    buttons: false
+  text:
+    label: Contenu
+    type: textarea
+    help: "Les intertitres s'écrivent avec ## en début de ligne."

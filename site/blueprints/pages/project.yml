@@ -1,0 +1,109 @@
+title: Projet
+icon: page
+
+tabs:
+  article:
+    label: Article
+    fields:
+      headline:
+        label: Titre de l'article
+        type: textarea
+        buttons: false
+      lead:
+        label: Chapô
+        type: textarea
+        buttons: false
+      tool:
+        label: Encart outil
+        type: object
+        help: S'affiche sous le titre lorsque le lien est renseigné.
+        fields:
+          label:
+            label: Sur-titre
+            type: text
+            width: 1/2
+          button:
+            label: Texte du bouton
+            type: text
+            width: 1/2
+          text:
+            label: Texte
+            type: textarea
+            buttons: false
+          link:
+            label: Lien
+            type: link
+      cover:
+        label: Image principale
+        type: files
+        max: 1
+        query: page.images
+        uploads: image
+        help: La légende de l'image s'affiche sous l'image.
+      text:
+        label: Contenu
+        type: blocks
+        fieldsets:
+          - heading
+          - text
+          - list
+          - quote
+          - image
+          - callout
+      tags:
+        label: Mots-clés
+        type: tags
+
+  card:
+    label: Carte projet
+    fields:
+      period:
+        label: Période
+        type: text
+        help: "Ex. : Novembre 2026"
+        width: 1/2
+      upcoming:
+        label: À venir
+        type: toggle
+        text: Afficher « Coming soon »
+        width: 1/2
+      thumbnail:
+        label: Visuel de la carte
+        type: files
+        max: 1
+        query: page.images
+        uploads: image
+      excerpt:
+        label: Résumé
+        type: textarea
+        buttons: false
+      partner:
+        label: Logo partenaire
+        type: files
+        max: 1
+        query: page.images
+        uploads: image
+
+  meta:
+    label: Auteur et publication
+    fields:
+      author:
+        label: Auteur·rice
+        type: text
+        width: 1/2
+      author_photo:
+        label: Photo de l'auteur·rice
+        type: files
+        max: 1
+        query: page.images
+        uploads: image
+        width: 1/2
+      published:
+        label: Date de publication
+        type: date
+        display: DD/MM/YYYY
+        width: 1/2
+      reading_time:
+        label: Temps de lecture (min)
+        type: number
+        width: 1/2

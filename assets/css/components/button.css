@@ -1,0 +1,19 @@
+/* Bouton : plein (corail) ou contour */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    height: var(--control-height);
+    padding: 0.125rem 0.75rem 0; /* 2px en haut : centre les capitales comme sur la maquette */
+    font-family: var(--font-heading);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-bold);
+    color: var(--color-encre);
+    background-color: var(--color-corail);
+    border: 2px solid var(--color-corail);
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn--outline {
+    background-color: transparent;
+}

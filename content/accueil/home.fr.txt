@@ -1,0 +1,218 @@
+Title: Accueil
+
+----
+
+Hero-title:
+
+Exposer la contamination
+chimique. Agir pour la santé.
+
+----
+
+Hero-image: - hero.jpg
+
+----
+
+About-label: Qui sommes-nous ?
+
+----
+
+About-text:
+
+Projet NK explore les causes et les conséquences
+de la pollution chimique en tissant des liens entre
+scientifiques, communautés affectées, militants
+et politiques.
+
+Nous défendons la santé environnementale
+en France, en Europe, et là où les scandales
+sanitaires se multiplient.
+
+----
+
+Actions-label: Nous le faisons au travers :
+
+----
+
+Actions:
+
+- 
+  text: |
+    d’investigations sur les
+    mécaniques industrielles
+    et politiques de la
+    contamination
+- 
+  text: |
+    de vulgarisation
+    scientifique
+- 
+  text: |
+    de mobilisation citoyenne
+    et de plaidoyer
+
+----
+
+Nk-title: NK : Natural Killers
+
+----
+
+Nk-text: Natural Killers : ces cellules sentinelles du système immunitaire repèrent et détruisent rapidement les cellules infectées ou anormales.
+
+----
+
+Team-text:
+
+Notre équipe interdisciplinaire rassemble des connaissances
+en sciences de l’environnement, traitement de données,
+réalisation de films, lobbying politique et communication
+scientifique pour mener à bien ses projets. Projet NK collabore
+fréquemment avec des journalistes, collectifs et mouvements
+citoyens, ainsi que d’autres ONG.
+
+----
+
+Team-label: L’équipe
+
+----
+
+Team:
+
+- 
+  photo:
+    - lila-sakata.jpg
+  name: Lila Sakata
+  role: |
+    Responsable scientifique
+    des programmes
+- 
+  photo:
+    - camille-etienne.jpg
+  name: Camille Etienne
+  role: Secrétaire générale
+- 
+  photo:
+    - philippine-coutau.jpg
+  name: Philippine Coutau
+  role: |
+    Responsable scientifique
+    des programmes
+- 
+  photo:
+    - solal-moisan.jpg
+  name: Solal Moisan
+  role: |
+    Responsable de la
+    communication
+- 
+  photo:
+    - saskia-horvat.jpg
+  name: Saskia Horvat
+  role: |
+    Responsable du
+    développement
+
+----
+
+Board-label: Notre bureau
+
+----
+
+Board:
+
+- 
+  label: Présidente
+  photo:
+    - eleonore-mourre.jpg
+  name: Eléonore Mourre
+  role: |
+    Médecin spécialisée en
+    immunologie clinique
+- 
+  label: Trésorière
+  photo:
+    - aurelie-mercier.jpg
+  name: Aurélie Mercier
+  role: Chargée de projet éducation
+- 
+  label: Secrétaire
+  photo:
+    - leonore-baulac.jpg
+  name: Léonore Baulac
+  role: Danseuse étoile
+
+----
+
+Council-label: Notre conseil scientifique
+
+----
+
+Council:
+
+- 
+  name: Annie Thébaud Mony
+  role: Directrice de recherche honoraire INSERM
+- 
+  name: Romain Figuiere
+  role: Post-doctorant à l’Université de Stockholm
+- 
+  name: René Nissen
+  role: Doctorant à l’Université de Wageningen
+- 
+  name: Ayisha Khalid
+  role: Doctorante à l’Université d’Oxford
+- 
+  name: Olwenn Martin
+  role: |
+    Professeure associée en santé et environnement à
+    l’University College London
+- 
+  name: Pascal Pineau
+  role: Directeur de recherche à l’Institut Pasteur
+- 
+  name: Moritz Hunsmann
+  role: Chargé de recherche au CNRS
+- 
+  name: Anna Shalin
+  role: Doctorante à l’Université de Toronto
+- 
+  name: Jules Calage
+  role: Doctorant à l’EHESS
+
+----
+
+Contact-label: Contact
+
+----
+
+Contact-title: Nous contacter
+
+----
+
+Contact-text:
+
+Une question sur nos projets, une proposition de partenariat, une demande
+presse ou l’envie de témoigner ? Notre équipe vous répond sous quelques jours.
+
+----
+
+Contact-link: mailto:contact@projetnk.org
+
+----
+
+Newsletter-label: Newsletter
+
+----
+
+Newsletter-title: Restez informé·e
+
+----
+
+Newsletter-text:
+
+Recevez l’essentiel de nos enquêtes, l’avancée de nos combats
+et les actions auxquelles participer.
+
+----
+
+Newsletter-action: 

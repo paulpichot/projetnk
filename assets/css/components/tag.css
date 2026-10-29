@@ -1,0 +1,25 @@
+/* Étiquette : pleine (encre), contour ou claire (ivoire) */
+.tag {
+    display: inline-flex;
+    align-items: center;
+    height: var(--control-height);
+    padding-inline: var(--space-xs);
+    font-weight: var(--fw-medium);
+    color: var(--color-ivoire);
+    background-color: var(--color-encre);
+}
+
+.tag--outline {
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-regular);
+    color: var(--color-encre);
+    background-color: transparent;
+    border: 1px solid var(--color-encre);
+}
+
+.tag--light {
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-regular);
+    color: var(--color-encre);
+    background-color: var(--color-ivoire);
+}

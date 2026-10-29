@@ -1,0 +1,64 @@
+Title: Cartographie citoyenne des cancers pédiatriques
+
+----
+
+Headline: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed ut perspiciatis unde omnis iste natus error
+
+----
+
+Lead: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+----
+
+Tool:
+
+label: Outil participatif
+button: Accéder à la cartographie citoyenne
+text: |
+  Signalez un cas, consultez la carte,
+  agissons ensemble.
+link: '#'
+
+----
+
+Cover: - cartographie.jpg
+
+----
+
+Text: [{"type":"text","content":{"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget rutrum massa. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla, sed posuere consectetur est at lobortis.</p><p>Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>"},"id":"b1","isHidden":false},{"type":"heading","content":{"level":"h2","text":"Lorem ipsum dolor sit amet"},"id":"b2","isHidden":false},{"type":"text","content":{"text":"<p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>"},"id":"b3","isHidden":false},{"type":"quote","content":{"text":"« Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. »","citation":"— Prénom Nom, fonction"},"id":"b4","isHidden":false},{"type":"text","content":{"text":"<p>Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>"},"id":"b5","isHidden":false},{"type":"list","content":{"text":"<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Vestibulum id ligula porta felis euismod semper.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li>Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</li></ul>"},"id":"b6","isHidden":false},{"type":"image","content":{"image":["illustration.jpg"],"caption":"Légende — Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."},"id":"b7","isHidden":false},{"type":"heading","content":{"level":"h3","text":"Sed posuere consectetur est at lobortis"},"id":"b8","isHidden":false},{"type":"text","content":{"text":"<p>Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>"},"id":"b9","isHidden":false},{"type":"callout","content":{"label":"À retenir","text":"Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet."},"id":"b10","isHidden":false},{"type":"text","content":{"text":"<p>Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>"},"id":"b11","isHidden":false}]
+
+----
+
+Tags: PFAS, Santé publique, Données
+
+----
+
+Period: Novembre 2026
+
+----
+
+Upcoming: false
+
+----
+
+Thumbnail: - carte.jpg
+
+----
+
+Excerpt: Lorem ipsum dolor sit amet, consec adipiscing elit. Cras eget rutrum massa.
+
+----
+
+Partner: - green-got.png
+
+----
+
+Author: Prénom Nom
+
+----
+
+Published: 2026-11-12
+
+----
+
+Reading-time: 6

@@ -1,0 +1,17 @@
+Title: Projet à venir 4
+
+----
+
+Period: 2027
+
+----
+
+Upcoming: true
+
+----
+
+Thumbnail: - visuel.jpg
+
+----
+
+Excerpt: Lorem ipsum dolor sit amet, consec adipiscing elit. Cras eget rutrum massa.

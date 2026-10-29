@@ -1,0 +1,105 @@
+title: Site
+
+tabs:
+  general:
+    columns:
+      - width: 1
+        sections:
+          pages:
+            type: pages
+            
+  settings:
+    label: Paramètres généraux
+    columns:
+      - width: 1/2
+        sections:
+          appearance:
+            extends: sections/appearance
+  informations:
+    columns:
+      - width: 1/2
+        sections:
+          infomations:
+            type: fields
+            fields:
+              description:
+                type: text
+              baseline:
+                type: text
+              credits:
+                type: text
+              favicon:
+                type: files
+                template: favicon
+                layout: list
+                max: 1
+              logoblack:
+                type: files
+                template: image
+                layout: list
+                max: 1
+              logowhite:
+                type: files
+                template: image
+                layout: list
+                max: 1
+              logomark:
+                label: Logo NK (version carrée)
+                type: files
+                template: image
+                layout: list
+                max: 1
+              privacy:
+                label: Page politique de confidentialité
+                type: pages
+                max: 1
+      - width: 1/2
+        sections:
+          contact:
+            type: fields
+            fields:
+              adress:
+                label: Adresse
+                type: text
+              postalcode:
+                label: Code postal
+                type: text
+              city:
+                label: Ville
+                type: text
+              googlemaps_link:
+                label: Lien Google Maps
+                type: text
+              telephone:
+                label: Téléphone
+                type: tel
+                help: "Format: +33 6 99 28 98 22"
+              telephone_link:
+                label: Lien pour appel
+                type: text
+              email:
+                label: Email
+                type: text
+              email_link:
+                label: Lien pour email
+                type: text
+              latitude:
+                label: Latitude
+                type: text
+              longitude:
+                label: Longitude
+                type: text
+              opening_hours:
+                label: Horaires d'ouverture
+                type: textarea
+                help: "Exemple: Lun-Ven: 9h-18h, Sam: 9h-12h"
+                
+
+  menus:
+    columns:
+      - width: 1/2
+        sections:
+          menus:
+            extends: sections/menus
+            
+  seo: seo/site

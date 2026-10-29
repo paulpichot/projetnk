@@ -1,0 +1,9 @@
+fields:
+  copyright:
+    label: Copyright
+    type: text
+    icon: title
+  alternate:
+    label: Texte alternatif
+    type: text
+    icon: title

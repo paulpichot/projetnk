@@ -1,0 +1,115 @@
+/* Base */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    color: var(--color-encre);
+    background-color: var(--color-ivoire);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Typographie */
+.title-display,
+.title-h1,
+.title-h2,
+.text-lead,
+.text-h3 {
+    font-family: var(--font-heading);
+    font-weight: var(--fw-bold);
+}
+
+.title-display {
+    font-size: var(--fs-display);
+    line-height: var(--lh-display);
+}
+
+.title-h1 {
+    font-size: var(--fs-h1);
+    line-height: var(--lh-h1);
+}
+
+.title-h2 {
+    font-size: var(--fs-h2);
+    line-height: var(--lh-h2);
+}
+
+.text-lead {
+    font-size: var(--fs-lead);
+    line-height: var(--lh-lead);
+}
+
+.text-h3 {
+    font-size: var(--fs-h3);
+    line-height: var(--lh-h3);
+}
+
+.text-body-lg {
+    font-size: var(--fs-body-lg);
+    line-height: var(--lh-body-lg);
+    font-weight: var(--fw-light);
+}
+
+.text-mention {
+    font-size: var(--fs-xs);
+    line-height: var(--lh-xs);
+}
+
+.eyebrow {
+    font-size: var(--fs-label);
+    line-height: var(--lh-label);
+    font-weight: var(--fw-semibold);
+    letter-spacing: var(--ls-label);
+    text-transform: uppercase;
+}
+
+/* Mise en page */
+.wrapper,
+.wrapper-wide,
+.wrapper-cards {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: var(--page-margin);
+}
+
+.wrapper {
+    max-width: calc(var(--container) + 2 * var(--page-margin));
+}
+
+.wrapper-wide {
+    max-width: calc(var(--container-wide) + 2 * var(--page-margin));
+}
+
+.wrapper-cards {
+    max-width: calc(var(--container-cards) + 2 * var(--page-margin));
+}
+
+.section {
+    padding-block: var(--space-3xl);
+}
+
+.section--sable {
+    background-color: var(--color-sable);
+}
+
+.section--ardoise {
+    background-color: var(--color-ardoise);
+    color: var(--color-blanc);
+}
+
+.section--blanc {
+    background-color: var(--color-blanc);
+}
+
+/* Liste en ligne séparée par des points médians */
+.list-dots li {
+    display: inline;
+}
+
+.list-dots li + li::before {
+    content: "·";
+    margin-inline: 0.375rem 0.4375rem; /* l’espace entre les items complète à gauche */
+}

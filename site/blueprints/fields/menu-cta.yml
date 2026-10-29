@@ -1,0 +1,3 @@
+extends: fields/menu-primary
+label: Bouton d'appel (ex. Faire un don)
+max: 1

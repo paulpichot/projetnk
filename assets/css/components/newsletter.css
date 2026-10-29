@@ -1,0 +1,34 @@
+/* Formulaire newsletter : champ + bouton accolés */
+.newsletter__form {
+    display: flex;
+}
+
+.newsletter__input {
+    flex: 1;
+    min-width: 0;
+    height: var(--control-height);
+    padding-inline: var(--space-xs);
+    font: inherit;
+    color: var(--color-encre);
+    background-color: var(--color-blanc);
+    border: 0;
+}
+
+.newsletter__input::placeholder {
+    color: var(--color-encre-60);
+}
+
+.newsletter__mention {
+    max-width: 29.75rem; /* 476px */
+    margin-top: 1.5625rem; /* 25px */
+}
+
+.newsletter__mention a {
+    text-decoration: underline;
+}
+
+@media (max-width: 1023px) {
+    .newsletter__mention {
+        margin-top: 1.0625rem; /* 17px */
+    }
+}

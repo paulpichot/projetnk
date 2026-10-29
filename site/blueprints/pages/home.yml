@@ -1,0 +1,145 @@
+title: Accueil
+
+tabs:
+  hero:
+    label: En-tête
+    fields:
+      hero_title:
+        label: Titre
+        type: textarea
+        buttons: false
+      hero_image:
+        label: Image
+        type: files
+        template: image
+        max: 1
+
+  about:
+    label: Qui sommes-nous
+    fields:
+      about_label:
+        label: Sur-titre
+        type: text
+        width: 1/2
+      about_text:
+        label: Texte
+        type: textarea
+        buttons: false
+      actions_label:
+        label: Sur-titre des actions
+        type: textarea
+        buttons: false
+        width: 1/2
+      actions:
+        label: Actions
+        type: structure
+        fields:
+          text:
+            label: Texte
+            type: textarea
+            buttons: false
+      nk_title:
+        label: Titre NK
+        type: text
+        width: 1/2
+      nk_text:
+        label: Texte NK
+        type: textarea
+        buttons: false
+
+  team:
+    label: Équipe
+    fields:
+      team_text:
+        label: Texte d’introduction
+        type: textarea
+        buttons: false
+      team_label:
+        label: Sur-titre équipe
+        type: text
+      team:
+        label: Équipe
+        type: structure
+        fields:
+          photo:
+            label: Photo
+            type: files
+            template: image
+            max: 1
+          name:
+            label: Nom
+            type: text
+          role:
+            label: Fonction
+            type: textarea
+            buttons: false
+      board_label:
+        label: Sur-titre bureau
+        type: text
+      board:
+        label: Bureau
+        type: structure
+        fields:
+          label:
+            label: Mandat
+            type: text
+          photo:
+            label: Photo
+            type: files
+            template: image
+            max: 1
+          name:
+            label: Nom
+            type: text
+          role:
+            label: Fonction
+            type: textarea
+            buttons: false
+      council_label:
+        label: Sur-titre conseil scientifique
+        type: text
+      council:
+        label: Conseil scientifique
+        type: structure
+        fields:
+          name:
+            label: Nom
+            type: text
+          role:
+            label: Fonction
+            type: textarea
+            buttons: false
+
+  contact:
+    label: Contact
+    fields:
+      contact_label:
+        label: Sur-titre contact
+        type: text
+        width: 1/2
+      contact_title:
+        label: Titre contact
+        type: text
+        width: 1/2
+      contact_text:
+        label: Texte contact
+        type: textarea
+        buttons: false
+      contact_link:
+        label: Lien « Nous écrire »
+        type: link
+      newsletter_label:
+        label: Sur-titre newsletter
+        type: text
+        width: 1/2
+      newsletter_title:
+        label: Titre newsletter
+        type: text
+        width: 1/2
+      newsletter_text:
+        label: Texte newsletter
+        type: textarea
+        buttons: false
+      newsletter_action:
+        label: URL du service newsletter
+        type: url

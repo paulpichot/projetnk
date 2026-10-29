@@ -1,0 +1,14 @@
+type: structure
+label: Menu holding
+fields:
+  title:
+    type: text
+    label: Texte affiché
+  image:
+    type: files
+    label: Image
+    multiple: false
+    max: 1
+  customUrl:
+    type: url
+    label: URL personnalisée

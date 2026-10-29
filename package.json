@@ -1,0 +1,12 @@
+{
+    "name": "projetnk",
+    "type": "module",
+    "scripts": {
+        "dev": "node assets/assets.config.js",
+        "build": "node assets/assets.config.js build"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.29.3",
+        "esbuild": "^0.19.7"
+    }
+}

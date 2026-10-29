@@ -1,0 +1,51 @@
+Title: Gestion des cookies
+
+----
+
+Updated: 2026-09-24
+
+----
+
+Intro: Un cookie est un petit fichier déposé sur votre appareil lors de votre visite. Certains sont indispensables au fonctionnement du site, d’autres nous aident à comprendre son utilisation. Vous pouvez modifier vos choix à tout moment ci-dessous.
+
+----
+
+Categories:
+
+- 
+  type: essentials
+  title: Cookies essentiels
+  text: >
+    Nécessaires au fonctionnement du site
+    (sécurité, mémorisation de vos choix). Ils
+    ne peuvent pas être désactivés.
+- 
+  type: audience
+  title: Mesure d’audience
+  text: >
+    Nous permettent de mesurer la
+    fréquentation du site de façon anonyme
+    pour l’améliorer.
+- 
+  type: social
+  title: Réseaux sociaux et vidéos
+  text: >
+    Permettent d’afficher les vidéos
+    intégrées et les boutons de partage des
+    réseaux sociaux.
+
+----
+
+Text:
+
+## Durée de conservation
+
+Vos choix sont conservés pendant 6 mois. Passé ce délai, nous vous demanderons à nouveau votre consentement. Les cookies de mesure d’audience ont une durée de vie maximale de 13 mois.
+
+## Paramétrer votre navigateur
+
+Vous pouvez aussi bloquer ou supprimer les cookies directement depuis les réglages de votre navigateur. Certaines fonctionnalités du site pourraient alors ne plus fonctionner correctement.
+
+## En savoir plus
+
+Pour toute question, écrivez à contact@projet-nk.org ou consultez notre politique de confidentialité. Plus d’informations sur le site de la CNIL (www.cnil.fr).

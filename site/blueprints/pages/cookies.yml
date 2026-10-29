@@ -1,0 +1,24 @@
+title: Gestion des cookies
+icon: cog
+extends: pages/legal
+
+fields:
+  categories:
+    label: Catégories de cookies
+    type: structure
+    fields:
+      type:
+        label: Type
+        type: select
+        required: true
+        options:
+          essentials: Essentiels (toujours actifs)
+          audience: Mesure d'audience
+          social: Réseaux sociaux et vidéos
+      title:
+        label: Titre
+        type: text
+      text:
+        label: Description
+        type: textarea
+        buttons: false

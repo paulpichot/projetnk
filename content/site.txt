@@ -1,0 +1,335 @@
+Title: Paul Pichot
+
+----
+
+Font-primary: 
+
+----
+
+Font-secondary: 
+
+----
+
+Button-style: 
+
+----
+
+Enable-animations: false
+
+----
+
+Layout-width: 
+
+----
+
+Description: Réparateur et accordeur d'accordéons diatoniques et chromatiques à Uzerche (19)
+
+----
+
+Baseline: Réparateur et accordeur d'accordéons
+
+----
+
+Credits: © Paul PICHOT 2025
+
+----
+
+Favicon: 
+
+----
+
+Logoblack: - file://AFb9u3PUu8z7g6TR
+
+----
+
+Logowhite: - file://p9SiWmiMTyyoSq15
+
+----
+
+Adress: 14 rue de la Justice
+
+----
+
+Postalcode: 19140
+
+----
+
+City: Uzerche
+
+----
+
+Telephone: 06 99 28 98 22
+
+----
+
+Email: paulpichot@protonmail.com
+
+----
+
+Latitude: 
+
+----
+
+Longitude: 
+
+----
+
+Menuprimary:
+
+- 
+  title: Services
+  linktype: url
+  pagelink: [ ]
+  customurl: https://google.fr/
+  subtitle: Découvrez tous nos projets
+  link: [ ]
+- 
+  title: Accordéons
+  linktype: ""
+  pagelink: [ ]
+  customurl: ""
+- 
+  title: "L'atelier"
+  linktype: url
+  pagelink: [ ]
+  customurl: https://google.fr/
+  subtitle: Louez notre studio dans le 11e.
+  link: [ ]
+- 
+  title: A propos
+  linktype: url
+  pagelink: [ ]
+  customurl: https://google.fr/
+  subtitle: 35 rue Chanzy, 75011 Paris
+  link: [ ]
+- 
+  title: Me contacter
+  linktype: url
+  pagelink: [ ]
+  customurl: https://google.fr/
+
+----
+
+Menuholding: 
+
+----
+
+Menumobile:
+
+- 
+  title: Actualités
+  link: [ ]
+- 
+  title: A propos
+  link: [ ]
+- 
+  title: Contact
+  link: [ ]
+- 
+  title: Mentions Légales
+  link: [ ]
+
+----
+
+Menufooter:
+
+- 
+  title: CGU
+  link:
+    - page://TuNc5usT2e8PfBY6
+
+----
+
+Menusocials: 
+
+----
+
+Metatemplate: {{ title }} • Starter Kirby
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: {{ title }} • Starter Kirby
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: - file://gEBblZLr5XeuPTpX
+
+----
+
+Twittercardtype: summary_large_image
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Logotwo: 
+
+----
+
+Logothree: 
+
+----
+
+Logo: - file://p9SiWmiMTyyoSq15
+
+----
+
+Meta-title: Starter Kirby
+
+----
+
+Meta-description: Starter Kirby est un starter pour bien commencer un site avec Kirby.
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: - file://gEBblZLr5XeuPTpX
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: Starter Kirby
+
+----
+
+Og-description: 
+
+----
+
+Og-image: - file://gEBblZLr5XeuPTpX
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: Starter Kirby
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: - file://gEBblZLr5XeuPTpX
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 

@@ -1,0 +1,164 @@
+Title: Nous soutenir
+
+----
+
+Headline: Financer Projet NK, c’est soutenir un catalyseur : une capacité à relier des acteurs qui ne se parlent pas et une expertise pour transformer des données diffuses en scandales impossibles à ignorer.
+
+----
+
+Video: 
+
+----
+
+Theme: Santé & Environnement
+
+----
+
+Share_url: #
+
+----
+
+Follow_url: #
+
+----
+
+Contributions: 342772
+
+----
+
+Goal: 10000
+
+----
+
+Next_goal: 400000
+
+----
+
+Contributors: 185978
+
+----
+
+End_date: 2026-10-24
+
+----
+
+Minimum: Contribution libre, à partir de 1 €
+
+----
+
+Donate_url: #
+
+----
+
+Tax: % Ce don est défiscalisable !
+
+----
+
+Secure: Paiement sécurisé et sans engagement
+
+----
+
+Secure_url: #
+
+----
+
+Budget_label: Répartition de nos dépenses
+
+----
+
+Budget_text: Chaque don nous permet de recruter les bonnes personnes, d’aller chercher de nouveaux financements et d’assurer la pérennité de la structure.
+
+----
+
+Budget_total: ≈ 40 k€
+
+----
+
+Budget_period: par mois
+
+----
+
+Budget:
+
+-
+  title: Salaires de l’équipe
+  text: 4 salarié·es et 3 freelances
+  amount: ≈ 30 k€ / mois
+  share: 75
+-
+  title: Communication & fundraising
+  text: DA, site internet…
+  amount: ≈ 7 k€ / mois
+  share: 17.5
+-
+  title: Frais de fonctionnement
+  text: Loyer, comptable, avocats…
+  amount: ≈ 3 k€ / mois
+  share: 7.5
+
+----
+
+Faq:
+
+-
+  question: Concrètement, à quoi vont servir les dons ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+-
+  question: Je souhaite donner en une fois, est-ce possible ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+-
+  question: À quelle date serai-je prélevé·e de mon don mensuel ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+-
+  question: Je souhaite défiscaliser mon don, est-ce possible ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+-
+  question: Je souhaite arrêter mon don mensuel, est-ce possible ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+-
+  question: Je ne parviens pas à donner en ligne mais je souhaite soutenir, comment faire ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+-
+  question: Je n’ai pas les moyens de donner mais je souhaite soutenir, est-ce possible ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+-
+  question: Mon moyen de paiement n’est plus actif, que faire ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+-
+  question: J’ai encore des questions, qui contacter ?
+  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+----
+
+Funders_label: Principaux financeurs
+
+----
+
+Funders_text: Nous bénéficions de financements institutionnels et privés. Aujourd’hui, nous sommes soutenus par ECF (European Climate Foundation) et GreenGot, à hauteur d’environ 25% de notre budget annuel. Un grand merci à eux.
+
+----
+
+Funders:
+
+- green-got.png
+- ecf.png
+
+----
+
+Feature_show: true
+
+----
+
+Feature_title: Lorem ipsum dolor sit amet, consectetur adipiscing
+
+----
+
+Feature_text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+----
+
+Feature_video: 
+
+----
+
+Feature_label: Lorem ipsum · 2:45

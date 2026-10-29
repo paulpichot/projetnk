@@ -1,0 +1,250 @@
+Title: Mon Organisation
+
+----
+
+Font-primary: 
+
+----
+
+Font-secondary: 
+
+----
+
+Button-style: 
+
+----
+
+Enable-animations: false
+
+----
+
+Layout-width: 
+
+----
+
+Description: Starter Kirby professionnel pour PME, associations et organisations
+
+----
+
+Baseline: Votre mission, notre expertise
+
+----
+
+Credits: © Mon Organisation 2025
+
+----
+
+Favicon: 
+
+----
+
+Logoblack: 
+
+----
+
+Logowhite: 
+
+----
+
+Adress: Votre adresse
+
+----
+
+Postalcode: 00000
+
+----
+
+City: Votre ville
+
+----
+
+Googlemaps-link: 
+
+----
+
+Telephone: +33 1 23 45 67 89
+
+----
+
+Telephone-link: tel:+33123456789
+
+----
+
+Email: contact@monorganisation.com
+
+----
+
+Email-link: mailto:contact@monorganisation.com
+
+----
+
+Latitude: 
+
+----
+
+Longitude: 
+
+----
+
+Opening-hours:
+
+Lun-Ven: 09:00–18:00
+Sur rendez-vous
+
+----
+
+Menuprimary:
+
+- 
+  title: Accueil
+  linktype: url
+  pagelink: [ ]
+  customurl: '/'
+- 
+  title: À propos
+  linktype: url
+  pagelink: [ ]
+  customurl: '/a-propos'
+- 
+  title: Activités
+  linktype: url
+  pagelink: [ ]
+  customurl: '/activites'
+- 
+  title: Équipe
+  linktype: url
+  pagelink: [ ]
+  customurl: '/equipe'
+- 
+  title: Contact
+  linktype: url
+  pagelink: [ ]
+  customurl: '/contact'
+
+----
+
+Menuholding: 
+
+----
+
+Menumobile:
+
+- 
+  title: Accueil
+  linktype: url
+  pagelink: [ ]
+  customurl: '/'
+- 
+  title: À propos
+  linktype: url
+  pagelink: [ ]
+  customurl: '/a-propos'
+- 
+  title: Activités
+  linktype: url
+  pagelink: [ ]
+  customurl: '/activites'
+- 
+  title: Équipe
+  linktype: url
+  pagelink: [ ]
+  customurl: '/equipe'
+- 
+  title: Contact
+  linktype: url
+  pagelink: [ ]
+  customurl: '/contact'
+
+----
+
+Menufooter:
+
+- 
+  title: Mentions légales
+  link: [ ]
+- 
+  title: Politique de confidentialité
+  link: [ ]
+- 
+  title: Plan du site
+  link: [ ]
+
+----
+
+Menusocials: 
+
+----
+
+Metatemplate: {{ title }} • Mon Organisation
+
+----
+
+Metadescription: Starter Kirby professionnel pour créer rapidement un site d'organisation moderne et performant.
+
+----
+
+Ogtemplate: {{ title }} • Mon Organisation
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: Mon Organisation
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary_large_image
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Logotwo: 
+
+----
+
+Logothree: 
+
+----
+
+Logo: 
+
+----
+
+Meta-title: Starter Kirby Professionnel
+
+----
+
+Meta-description: Un starter Kirby moderne pour PME, associations et organisations. Prêt à l'emploi avec Tailwind CSS et Vite.
+
+----
+
+Organization-type: enterprise

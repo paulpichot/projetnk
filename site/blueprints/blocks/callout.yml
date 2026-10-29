@@ -1,0 +1,13 @@
+name: Encadré
+icon: alert
+preview: fields
+wysiwyg: true
+fields:
+  label:
+    label: Sur-titre
+    type: text
+    default: À retenir
+  text:
+    label: Texte
+    type: textarea
+    buttons: false

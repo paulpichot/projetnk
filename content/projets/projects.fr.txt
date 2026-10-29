@@ -1,0 +1,42 @@
+Title: Nos projets
+
+----
+
+Statements:
+
+-
+  text: >
+    Produire de la donnée et de l’information. Enquêter, vulgariser et diffuser des informations scientifiques et des scandales sanitaires.
+-
+  text: >
+    Faire appliquer et changer les lois. Pour restreindre la pollution et la contamination auxquelles est confrontée la population européenne
+-
+  text: >
+    Mobiliser toutes les parties prenantes. Relayer et amplifier la parole des lanceurs d’alerte, des communautés affectées et des scientifiques.
+
+----
+
+Hero_image: - assemblee.jpg
+
+----
+
+Upcoming_label: Prochainement
+
+----
+
+Upcoming_title: D’autres projets arrivent en 2027
+
+----
+
+Upcoming_text:
+
+Nous préparons de nouvelles enquêtes et actions de mobilisation.
+Inscrivez-vous à la newsletter pour être informé·e de leur lancement.
+
+----
+
+Upcoming_button: S’inscrire à la newsletter
+
+----
+
+Upcoming_link: /#newsletter

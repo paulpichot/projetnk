@@ -1,0 +1,152 @@
+title: Page par défaut
+
+tabs:
+  content:
+    label: Contenu
+    columns:
+      - width: 2/3
+        sections:
+          fields:
+            type: fields
+            fields:
+              title:
+                type: text
+                label: Titre de la page
+                required: true
+                help: Titre principal affiché sur la page et utilisé par défaut pour le SEO
+              
+              text:
+                type: textarea
+                label: Contenu principal
+                buttons:
+                  - bold
+                  - italic
+                  - link
+                  - ul
+                  - ol
+                size: large
+
+      - width: 1/3
+        sections:
+          cover:
+            type: fields
+            fields:
+              cover:
+                type: files
+                label: Image de couverture
+                max: 1
+                layout: cards
+                template: image
+                help: Image principale de la page, utilisée aussi pour les réseaux sociaux
+
+  seo:
+    extends: tabs/seo
+    
+  # Données structurées spécifiques
+  structured_data:
+    label: Données structurées
+    icon: code
+    columns:
+      - width: 1
+        sections:
+          schema_settings:
+            type: fields
+            headline: Configuration Schema.org
+            fields:
+              schemaType:
+                label: Type de contenu Schema.org
+                type: select
+                default: WebPage
+                options:
+                  WebPage: Page web standard
+                  Article: Article/Blog
+                  Service: Page de service
+                  LocalBusiness: Page d'entreprise locale
+                  ContactPage: Page de contact
+                  AboutPage: Page à propos
+                  FAQPage: Page FAQ
+                width: 1/2
+              
+              sitemapPriority:
+                label: Priorité dans le sitemap
+                type: select
+                default: "0.5"
+                options:
+                  "1.0": Très haute (page d'accueil uniquement)
+                  "0.8": Haute (pages importantes)
+                  "0.5": Normale (pages standards)
+                  "0.3": Faible (pages secondaires)
+                  "0.1": Très faible
+                help: Importance relative de cette page par rapport aux autres
+                width: 1/2
+              
+              changeFrequency:
+                label: Fréquence de mise à jour
+                type: select
+                default: monthly
+                options:
+                  always: Toujours
+                  hourly: Chaque heure
+                  daily: Quotidienne
+                  weekly: Hebdomadaire
+                  monthly: Mensuelle
+                  yearly: Annuelle
+                  never: Jamais
+                help: Fréquence estimée de mise à jour du contenu
+                width: 1/2
+              
+              lastModified:
+                label: Dernière modification importante
+                type: date
+                time: true
+                default: now
+                help: Date de dernière modification significative du contenu
+                width: 1/2
+              
+              focusKeywords:
+                label: Mots-clés principaux
+                type: tags
+                help: Mots-clés principaux pour cette page (pour analyse interne)
+                width: 1
+              
+              relatedPages:
+                label: Pages liées
+                type: pages
+                multiple: true
+                help: Pages en relation avec celle-ci (améliore le maillage interne)
+                width: 1
+
+  # Analytics et suivi
+  analytics:
+    label: Analytics
+    icon: analytics
+    columns:
+      - width: 1
+        sections:
+          tracking:
+            type: fields
+            headline: Suivi et mesures
+            fields:
+              trackingEvents:
+                label: Événements à suivre
+                type: checkboxes
+                options:
+                  scroll: Suivi du scroll
+                  clicks: Suivi des clics
+                  forms: Suivi des formulaires
+                  downloads: Suivi des téléchargements
+                help: Événements Google Analytics à activer pour cette page
+                width: 1
+              
+              customDimensions:
+                label: Dimensions personnalisées
+                type: structure
+                fields:
+                  name:
+                    type: text
+                    label: Nom de la dimension
+                  value:
+                    type: text
+                    label: Valeur
+                help: Dimensions personnalisées pour Google Analytics
+                width: 1

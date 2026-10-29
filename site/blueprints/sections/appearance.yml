@@ -1,0 +1,41 @@
+type: fields
+label: Apparence
+fields:
+  theme_color:
+    label: Couleur principale
+    type: color
+  secondary_color:
+    label: Couleur secondaire
+    type: color
+  font_primary:
+    label: Police principale
+    type: select
+    options:
+      inter: Inter
+      roboto: Roboto
+      poppins: Poppins
+      montserrat: Montserrat
+  font_secondary:
+    label: Police secondaire
+    type: select
+    options:
+      playfair: Playfair Display
+      merriweather: Merriweather
+      lora: Lora
+  button_style:
+    label: Style des boutons
+    type: select
+    options:
+      rounded: Arrondi
+      sharp: Angles droits
+      pill: Pilule
+  enable_animations:
+    label: Activer les animations
+    type: toggle
+  layout_width:
+    label: Largeur du site
+    type: select
+    options:
+      contained: Contenu
+      fullwidth: Pleine largeur
+      boxed: Boxed

@@ -1,0 +1,9 @@
+type: structure
+label: Menu footer
+fields:
+  title:
+    type: text
+    label: Titre affiché
+  link:
+    type: pages
+    label: Page

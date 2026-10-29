@@ -1,0 +1,13 @@
+type: structure
+label: Menu réseaux sociaux
+fields:
+  title:
+    type: text
+    label: Titre affiché
+  link:
+    type: url
+    label: Lien
+  image:
+    type: files
+    label: Image
+    max: 1

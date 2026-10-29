@@ -1,0 +1,173 @@
+/* Pages légales : navigation latérale + contenu */
+.legal {
+    display: grid;
+    grid-template-columns: 18.5rem minmax(0, 1fr); /* 296px */
+    grid-template-areas:
+        "nav header"
+        "nav body";
+    align-content: start;
+    padding-block: 5.5rem 7.5rem; /* 88px 120px */
+}
+
+.legal__header {
+    grid-area: header;
+}
+
+.legal__nav {
+    grid-area: nav;
+}
+
+.legal__body {
+    grid-area: body;
+}
+
+.legal__date {
+    margin-top: 1.0625rem; /* 17px */
+    font-size: var(--fs-xs);
+    line-height: var(--lh-xs);
+    color: var(--color-encre-70);
+}
+
+.legal__intro {
+    margin-top: var(--space-xs);
+}
+
+.legal__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1.0625rem; /* 17px */
+}
+
+.legal__link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    font-size: var(--fs-small);
+    line-height: 1.5rem;
+}
+
+.legal__link[aria-current="page"] {
+    outline: 1px solid var(--color-encre);
+}
+
+/* Texte libre : intertitres ## et paragraphes */
+.legal__text h2 {
+    margin-top: 4.5625rem; /* 73px */
+    font-family: var(--font-heading);
+    font-size: var(--fs-h3);
+    line-height: var(--lh-h3);
+    font-weight: var(--fw-bold);
+}
+
+.legal__text p {
+    margin-top: 0.6875rem; /* 11px */
+}
+
+/* Gestion des cookies */
+.cookies {
+    margin-top: var(--space-l);
+}
+
+.cookies__panel {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+    padding: var(--space-m);
+    background-color: var(--color-sable);
+}
+
+.cookies__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-l);
+}
+
+.cookies__title {
+    font-weight: var(--fw-semibold);
+}
+
+.cookies__text {
+    margin-top: 0.25rem;
+    font-size: var(--fs-small);
+    line-height: var(--lh-small);
+    color: var(--color-encre-80);
+}
+
+.cookies__always {
+    flex-shrink: 0;
+    font-size: var(--fs-small);
+    color: var(--color-encre-60);
+}
+
+.cookies__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: var(--space-l);
+}
+
+@media (max-width: 1023px) {
+    .legal {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas:
+            "header"
+            "nav"
+            "body";
+        padding-block: 2.5625rem 3.5rem; /* 41px 56px */
+    }
+
+    .legal__date {
+        margin-top: 0.9375rem; /* 15px */
+    }
+
+    .legal__intro {
+        font-size: var(--fs-body);
+        line-height: 1.625rem; /* 26px */
+    }
+
+    .legal__nav {
+        margin-top: var(--space-m);
+    }
+
+    .legal__text h2 {
+        margin-top: 3.5625rem; /* 57px */
+        font-size: 1.125rem; /* 18px */
+        line-height: 1.5rem;
+    }
+
+    .legal__text p {
+        margin-top: 0.8125rem; /* 13px */
+    }
+
+    .legal__links {
+        align-items: stretch;
+    }
+
+    .cookies {
+        margin-top: var(--space-m);
+    }
+
+    .cookies__panel {
+        padding: var(--space-m) var(--page-margin);
+    }
+
+    .cookies__item {
+        flex-wrap: wrap;
+        gap: var(--space-xs) var(--space-s);
+    }
+
+    .cookies__item > div {
+        flex: 1;
+    }
+
+    .cookies__always {
+        width: 100%;
+    }
+
+    .cookies__actions {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: var(--space-m);
+    }
+}

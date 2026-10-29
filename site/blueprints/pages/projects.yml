@@ -1,0 +1,55 @@
+title: Projets
+icon: grid
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      statements:
+        label: Engagements
+        type: structure
+        fields:
+          text:
+            label: Texte
+            type: textarea
+            buttons: false
+  sidebar:
+    width: 1/3
+    fields:
+      hero_image:
+        label: Image des engagements
+        type: files
+        template: image
+        max: 1
+  upcoming:
+    width: 1/1
+    fields:
+      upcoming_label:
+        label: Sur-titre « Prochainement »
+        type: text
+        width: 1/2
+      upcoming_title:
+        label: Titre
+        type: text
+        width: 1/2
+      upcoming_text:
+        label: Texte
+        type: textarea
+        buttons: false
+      upcoming_button:
+        label: Texte du bouton
+        type: text
+        width: 1/2
+      upcoming_link:
+        label: Lien du bouton
+        type: link
+        width: 1/2
+  projects:
+    width: 1/1
+    sections:
+      projects:
+        label: Projets
+        type: pages
+        template: project
+        layout: cards
+        info: "{{ page.period }}"
