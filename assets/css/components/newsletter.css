@@ -4,17 +4,66 @@
 }
 
 .newsletter__input {
+    --underline: var(--color-corail);
     flex: 1;
     min-width: 0;
     height: var(--control-height);
     padding-inline: var(--space-xs);
     font: inherit;
     color: var(--color-encre);
-    background-color: var(--color-blanc);
+    background: var(--color-blanc) linear-gradient(var(--underline), var(--underline)) left bottom / 0 2px no-repeat;
     border: 0;
+    outline: none;
+    transition: background-size 300ms;
 }
 
 .newsletter__input::placeholder {
+    color: var(--color-encre-60);
+}
+
+/* Soulignement corail au focus */
+.newsletter__input:focus {
+    background-size: 100% 2px;
+}
+
+.newsletter__form .btn {
+    transition: color 200ms, background-color 200ms, border-color 200ms;
+}
+
+.newsletter__form .btn:enabled:hover {
+    color: var(--color-ivoire);
+    background-color: var(--color-corail-fonce);
+    border-color: var(--color-corail-fonce);
+}
+
+/* États (data-state posé par le JS) */
+.newsletter__form[data-state="error"] .newsletter__input {
+    --underline: var(--color-corail-fonce);
+    background-size: 100% 2px;
+}
+
+.newsletter__form[data-state="sending"] .btn {
+    opacity: 0.6;
+}
+
+.newsletter__form[data-state="success"] .btn {
+    color: var(--color-ivoire);
+    background-color: var(--color-encre);
+    border-color: var(--color-encre);
+}
+
+.newsletter__message {
+    margin-top: var(--space-2xs);
+    font-size: var(--fs-small);
+    line-height: var(--lh-xs);
+    color: var(--color-corail-fonce);
+}
+
+.newsletter__message:empty {
+    display: none;
+}
+
+.newsletter__message[data-state="success"] {
     color: var(--color-encre-60);
 }
 
@@ -28,6 +77,10 @@
 }
 
 @media (max-width: 1023px) {
+    .newsletter__message {
+        font-size: var(--fs-xs);
+    }
+
     .newsletter__mention {
         margin-top: 1.0625rem; /* 17px */
     }

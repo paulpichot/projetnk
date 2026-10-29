@@ -59,3 +59,7 @@
     color: var(--color-encre-60);
     text-align: center;
 }
+
+.soon .newsletter__message {
+    text-align: center;
+}

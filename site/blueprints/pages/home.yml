@@ -140,6 +140,3 @@ tabs:
         label: Texte newsletter
         type: textarea
         buttons: false
-      newsletter_action:
-        label: URL du service newsletter
-        type: url

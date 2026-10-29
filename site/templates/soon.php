@@ -21,7 +21,7 @@
 
         <p class="soon__text"><?= $page->text()->kti() ?></p>
 
-        <?php snippet('components/newsletter', ['action' => $page->newsletter_action()->value(), 'mention' => false]) ?>
+        <?php snippet('components/newsletter', ['mention' => false]) ?>
     </div>
 
     <footer class="soon__footer">
