@@ -1,0 +1,36 @@
+# Surcharge du groupe « robots » du plugin kirby-seo pour le site :
+# bascules non obligatoires, une valeur vide équivaut à « Défaut ».
+type: group
+fields:
+  robotsHeadline:
+    label: robots
+    type: headline
+    numbered: false
+  robotsindex: &robots
+    label: robots-index
+    help: robots-index-help
+    type: toggles
+    width: 1/2
+    default: default
+    options:
+      default: "{{ t('default-select') }}"
+      'true': "{{ t('yes') }}"
+      'false': "{{ t('no') }}"
+  robotsfollow:
+    <<: *robots
+    label: robots-follow
+    help: robots-follow-help
+  robotsarchive:
+    <<: *robots
+    label: robots-archive
+    help: robots-archive-help
+  robotsimageindex:
+    <<: *robots
+    label: robots-imageindex
+    help: robots-imageindex-help
+  robotssnippet:
+    <<: *robots
+    label: robots-snippet
+    help: robots-snippet-help
+  seoLine3:
+    type: line

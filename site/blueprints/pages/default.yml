@@ -39,9 +39,6 @@ tabs:
                 template: image
                 help: Image principale de la page, utilisée aussi pour les réseaux sociaux
 
-  seo:
-    extends: tabs/seo
-    
   # Données structurées spécifiques
   structured_data:
     label: Données structurées
