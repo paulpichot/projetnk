@@ -82,11 +82,6 @@ tabs:
                 type: toggle
                 default: false
 
-  # Onglet SEO
-  seo:
-    extends: tabs/seo
-    label: SEO
-
 # Sidebar du panel
 sidebar:
   # Statut de la page

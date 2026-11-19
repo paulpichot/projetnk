@@ -44,6 +44,14 @@ columns:
         label: Lien du bouton
         type: link
         width: 1/2
+        options:
+          - url
+          - page
+          - file
+          - email
+          - tel
+          - anchor
+          - custom
   projects:
     width: 1/1
     sections:

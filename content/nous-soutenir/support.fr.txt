@@ -14,11 +14,11 @@ Theme: Santé & Environnement
 
 ----
 
-Share_url: #
+Share_url: 
 
 ----
 
-Follow_url: #
+Follow_url: 
 
 ----
 
@@ -46,7 +46,7 @@ Minimum: Contribution libre, à partir de 1 €
 
 ----
 
-Donate_url: #
+Donate_url: 
 
 ----
 
@@ -58,7 +58,7 @@ Secure: Paiement sécurisé et sans engagement
 
 ----
 
-Secure_url: #
+Secure_url: 
 
 ----
 
