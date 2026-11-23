@@ -104,8 +104,12 @@ return [
                 $kirby->response()->header('X-Frame-Options', 'DENY');
 
                 // Mode lancement : le compte à rebours remplace le site public, toute autre URL renvoie vers l'accueil
-                if ($kirby->site()->launch_mode()->toBool() && !$kirby->user() && $soon = page('bientot')) {
-                    return $kirby->path() === '' ? $soon : go('/', 302);
+                // Hors mode lancement, /bientot renvoie vers l'accueil (les comptes connectés voient le vrai site)
+                $launch = $kirby->site()->launch_mode()->toBool();
+                $path = $kirby->path();
+
+                if (($launch || $path === 'bientot') && !$kirby->user() && $soon = page('bientot')) {
+                    return $launch && $path === '' ? $soon : go('/', 302);
                 }
 
                 return $kirby->resolve();
