@@ -15,6 +15,16 @@ tabs:
         sections:
           appearance:
             extends: sections/appearance
+      - width: 1/2
+        sections:
+          launch:
+            type: fields
+            fields:
+              launch_mode:
+                label: Mode lancement
+                type: toggle
+                text: Afficher le compte à rebours à la place du site
+                help: Toutes les pages publiques affichent la page « Bientôt » (date de lancement réglée sur cette page). Le site reste visible pour les comptes connectés au Panel.
   informations:
     columns:
       - width: 1/2

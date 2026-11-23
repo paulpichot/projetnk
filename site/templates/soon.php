@@ -1,13 +1,8 @@
 <?php snippet('head') ?>
 <main class="soon" role="main">
     <div class="soon__content">
-        <h1 class="soon__logo">
-            <?php if ($logo = $site->logoblack()->toFile()): ?>
-                <?= svg($logo) ?>
-                <span class="sr-only"><?= $site->title()->esc() ?></span>
-            <?php else: ?>
-                <?= $site->title()->esc() ?>
-            <?php endif ?>
+        <h1>
+            <img class="soon__logo" src="<?= url('assets/images/logo-nk.svg') ?>" alt="<?= $site->title()->esc() ?>" width="616" height="133">
         </h1>
 
         <div class="countdown" data-countdown="<?= date('c', $page->launch()->toDate()) ?>">
@@ -26,14 +21,11 @@
 
     <footer class="soon__footer">
         <p>© <?= date('Y') ?> <?= $site->title()->esc() ?></p>
-        <ul class="list-dots">
-            <?php foreach ($site->menumobile()->toStructure() as $item): ?>
-                <li><?php snippet('header/nav-link', ['item' => $item]) ?></li>
-            <?php endforeach ?>
-            <?php if ($page->email()->isNotEmpty()): ?>
+        <?php if ($page->email()->isNotEmpty()): ?>
+            <ul class="list-dots">
                 <li><?= Html::email($page->email()->value()) ?></li>
-            <?php endif ?>
-        </ul>
+            </ul>
+        <?php endif ?>
     </footer>
 </main>
 <?php snippet('foot') ?>

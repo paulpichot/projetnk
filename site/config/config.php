@@ -96,12 +96,19 @@ return [
     'routes' => [
         // Préchargement DNS pour domaines externes
         [
-            'pattern' => '.*',
+            'pattern' => '(:all)',
             'action' => function() {
                 // Headers performance dans toutes les réponses
-                kirby()->response()->header('X-Content-Type-Options', 'nosniff');
-                kirby()->response()->header('X-Frame-Options', 'DENY');
-                return kirby()->resolve();
+                $kirby = kirby();
+                $kirby->response()->header('X-Content-Type-Options', 'nosniff');
+                $kirby->response()->header('X-Frame-Options', 'DENY');
+
+                // Mode lancement : le compte à rebours remplace le site public, toute autre URL renvoie vers l'accueil
+                if ($kirby->site()->launch_mode()->toBool() && !$kirby->user() && $soon = page('bientot')) {
+                    return $kirby->path() === '' ? $soon : go('/', 302);
+                }
+
+                return $kirby->resolve();
             }
         ]
         ],
