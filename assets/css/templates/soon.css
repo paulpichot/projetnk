@@ -1,20 +1,21 @@
 /* Page « bientôt » : logo, compte à rebours, newsletter */
 .soon {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 2fr auto 3fr;
+    row-gap: var(--space-l);
     min-height: 100svh;
-    padding: 6rem var(--page-margin) 1.4375rem; /* 96px 23px */
+    padding: 2.375rem var(--page-margin); /* 38px */
 }
 
 .soon__content {
+    grid-row: 2;
     width: 100%;
-    max-width: 20.9375rem; /* 335px */
+    max-width: 45.75rem; /* 732px */
     margin-inline: auto;
 }
 
-.soon__logo svg {
-    display: block;
-    width: 15.0625rem; /* 241px */
+.soon__logo {
+    width: 38.5rem; /* 616px */
     height: auto;
     margin-inline: auto;
 }
@@ -22,13 +23,14 @@
 .countdown {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 3.25rem -0.625rem 0; /* 52px, colonnes de 86px */
+    margin-top: 4.125rem; /* 66px */
 }
 
 .countdown__item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 0.125rem; /* 2px */
 }
 
 .countdown__item + .countdown__item {
@@ -37,29 +39,77 @@
 
 .countdown__value {
     font-family: var(--font-heading);
-    font-size: 2rem; /* 32px */
+    font-size: var(--fs-h1);
     line-height: 1;
     font-weight: var(--fw-bold);
 }
 
 .countdown__label {
     margin-top: 0.5625rem; /* 9px */
+    font-size: var(--fs-small);
     color: var(--color-encre-60);
 }
 
 .soon__text {
-    margin-block: 3.6875rem 1.25rem; /* 59px 20px */
+    margin-block: 4.4375rem var(--space-m); /* 71px 32px */
     text-align: center;
 }
 
-.soon__footer {
-    margin-top: auto;
-    font-size: var(--fs-xs);
-    line-height: var(--lh-xs);
-    color: var(--color-encre-60);
-    text-align: center;
+.soon .newsletter {
+    max-width: 33.9375rem; /* 543px */
+    margin-inline: auto;
 }
 
 .soon .newsletter__message {
     text-align: center;
+}
+
+.soon__footer {
+    grid-row: 3;
+    align-self: end;
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--fs-small);
+    line-height: var(--lh-xs);
+    color: var(--color-encre-60);
+}
+
+@media (max-width: 1023px) {
+    .soon {
+        padding-block: 1.4375rem; /* 23px */
+    }
+
+    .soon__content {
+        max-width: 20.9375rem; /* 335px */
+    }
+
+    .soon__logo {
+        width: 18.125rem; /* 290px */
+    }
+
+    .countdown {
+        margin: 3.25rem -0.625rem 0; /* 52px, colonnes de 86px */
+    }
+
+    .countdown__item {
+        padding-top: 0;
+    }
+
+    .countdown__value {
+        font-size: 2rem; /* 32px */
+    }
+
+    .countdown__label {
+        font-size: var(--fs-label);
+    }
+
+    .soon__text {
+        margin-block: 3.6875rem 1.25rem; /* 59px 20px */
+    }
+
+    .soon__footer {
+        display: block;
+        font-size: var(--fs-xs);
+        text-align: center;
+    }
 }

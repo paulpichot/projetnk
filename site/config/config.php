@@ -96,12 +96,23 @@ return [
     'routes' => [
         // Préchargement DNS pour domaines externes
         [
-            'pattern' => '.*',
+            'pattern' => '(:all)',
             'action' => function() {
                 // Headers performance dans toutes les réponses
-                kirby()->response()->header('X-Content-Type-Options', 'nosniff');
-                kirby()->response()->header('X-Frame-Options', 'DENY');
-                return kirby()->resolve();
+                $kirby = kirby();
+                $kirby->response()->header('X-Content-Type-Options', 'nosniff');
+                $kirby->response()->header('X-Frame-Options', 'DENY');
+
+                // Mode lancement : le compte à rebours remplace le site public, toute autre URL renvoie vers l'accueil
+                // Hors mode lancement, /bientot renvoie vers l'accueil (les comptes connectés voient le vrai site)
+                $launch = $kirby->site()->launch_mode()->toBool();
+                $path = $kirby->path();
+
+                if (($launch || $path === 'bientot') && !$kirby->user() && $soon = page('bientot')) {
+                    return $launch && $path === '' ? $soon : go('/', 302);
+                }
+
+                return $kirby->resolve();
             }
         ]
         ],
