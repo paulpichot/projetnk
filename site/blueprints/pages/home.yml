@@ -43,7 +43,11 @@ tabs:
         type: text
         width: 1/2
       nk_text:
-        label: Texte NK
+        label: Texte NK (gauche)
+        type: textarea
+        buttons: false
+      nk_highlight:
+        label: Texte NK en gras (droite)
         type: textarea
         buttons: false
 

@@ -24,8 +24,11 @@
 
 <section class="section--sable nk">
     <div class="wrapper nk__inner">
-        <h2 class="text-h3"><?= $page->nk_title()->esc() ?></h2>
-        <p class="text-body-lg nk__text"><?= $page->nk_text()->kti() ?></p>
+        <div class="nk__text">
+            <h2 class="text-h3"><?= $page->nk_title()->esc() ?></h2>
+            <p class="text-body-lg nk__lead"><?= $page->nk_text()->kti() ?></p>
+        </div>
+        <p class="text-body-lg nk__text nk__highlight"><?= $page->nk_highlight()->kti() ?></p>
     </div>
 </section>
 

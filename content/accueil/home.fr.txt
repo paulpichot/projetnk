@@ -53,11 +53,18 @@ Actions:
 
 ----
 
-Nk-title: NK : Natural Killers
+Nk-title: Pourquoi Projet NK ?
 
 ----
 
-Nk-text: Natural Killers : ces cellules sentinelles du système immunitaire repèrent et détruisent rapidement les cellules infectées ou anormales.
+Nk-text:
+
+Dans notre corps, des milliards de sentinelles veillent en permanence.
+Leur mission : repérer les cellules cancéreuses et les virus, et tenter de les éliminer.
+
+----
+
+Nk-highlight: On les appelle les cellules NK : Natural Killers.
 
 ----
 
