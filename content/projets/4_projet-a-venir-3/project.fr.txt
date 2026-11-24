@@ -15,3 +15,7 @@ Thumbnail: - visuel.jpg
 ----
 
 Excerpt: Lorem ipsum dolor sit amet, consec adipiscing elit. Cras eget rutrum massa.
+
+----
+
+Uuid: 0XJ3sPctT63P61ys

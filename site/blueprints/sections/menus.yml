@@ -1,9 +1,28 @@
 type: fields
 fields:
+  header_headline:
+    label: En-tête
+    type: headline
   menuprimary: fields/menu-primary
   menucta: fields/menu-cta
-  menuholding: fields/menu-holding
   menumobile: fields/menu-mobile
+  footer_headline:
+    label: Pied de page
+    type: headline
+  menufooter_label:
+    label: Titre de la colonne « Pages »
+    type: text
+    placeholder: Pages
+    width: 1/2
+  menusocials_label:
+    label: Titre de la colonne « Nous suivre »
+    type: text
+    placeholder: Nous suivre
+    width: 1/2
   menufooter: fields/menu-footer
   menusocials: fields/menu-socials
+  menulegal_label:
+    label: Titre de la navigation des pages légales
+    type: text
+    placeholder: Informations légales
   menulegal: fields/menu-legal

@@ -5,7 +5,7 @@
  * @var \Kirby\Content\Field $text
  */
 ?>
-<article class="step">
-    <p class="eyebrow step__number"><?= esc($number) ?></p>
-    <p class="step__text"><?= $text->kti() ?></p>
+<article>
+    <p class="eyebrow flex items-center gap-6 text-corail"><?= esc($number) ?><span class="h-[1.5px] flex-1 bg-current" data-reveal="line"></span></p>
+    <p class="mt-6 text-card-sm font-semibold max-lg:max-w-70 lg:text-card-lg" data-reveal="text"><?= $text->kti() ?></p>
 </article>

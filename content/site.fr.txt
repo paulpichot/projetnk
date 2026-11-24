@@ -1,36 +1,24 @@
-Title: Mon Organisation
+Title: Projet NK
 
 ----
 
-Font-primary: 
+Description: Projet NK explore les causes et les conséquences de la pollution chimique, en reliant scientifiques, communautés affectées, militants et politiques.
 
 ----
 
-Font-secondary: 
+Privacy: - page://7YgKviDf5GSO9Jsy
 
 ----
 
-Button-style: 
+Rgive-url: https://soutenir.projetnk.org
 
 ----
 
-Enable-animations: false
+Logoblack: - file://zGKqQPh2qzeigO0X
 
 ----
 
-Layout-width: 
-
-----
-
-Description: Starter Kirby professionnel pour PME, associations et organisations
-
-----
-
-Baseline: Votre mission, notre expertise
-
-----
-
-Credits: © Mon Organisation 2025
+Logomark: - file://HgWSwDdli8ndCU2E
 
 ----
 
@@ -38,152 +26,99 @@ Favicon:
 
 ----
 
-Logoblack: 
-
-----
-
-Logowhite: 
-
-----
-
-Adress: Votre adresse
-
-----
-
-Postalcode: 00000
-
-----
-
-City: Votre ville
-
-----
-
-Googlemaps-link: 
-
-----
-
-Telephone: +33 1 23 45 67 89
-
-----
-
-Telephone-link: tel:+33123456789
-
-----
-
-Email: contact@monorganisation.com
-
-----
-
-Email-link: mailto:contact@monorganisation.com
-
-----
-
-Latitude: 
-
-----
-
-Longitude: 
-
-----
-
-Opening-hours:
-
-Lun-Ven: 09:00–18:00
-Sur rendez-vous
-
-----
-
 Menuprimary:
 
 - 
-  title: Accueil
-  linktype: url
-  pagelink: [ ]
-  customurl: '/'
+  title: Qui sommes-nous
+  link: page://nsqKVzPDAAXvIR7Q
 - 
-  title: À propos
-  linktype: url
-  pagelink: [ ]
-  customurl: '/a-propos'
+  title: Projets
+  link: page://e0FCFXCbHrGo9efb
 - 
-  title: Activités
-  linktype: url
-  pagelink: [ ]
-  customurl: '/activites'
-- 
-  title: Équipe
-  linktype: url
-  pagelink: [ ]
-  customurl: '/equipe'
-- 
-  title: Contact
-  linktype: url
-  pagelink: [ ]
-  customurl: '/contact'
+  title: Nous soutenir
+  link: page://390Ye2yPvLTdF91A
 
 ----
 
-Menuholding: 
+Menucta:
+
+- 
+  title: Faire un don
+  link: https://soutenir.projetnk.org/donner/
 
 ----
 
-Menumobile:
+Menumobile: 
 
-- 
-  title: Accueil
-  linktype: url
-  pagelink: [ ]
-  customurl: '/'
-- 
-  title: À propos
-  linktype: url
-  pagelink: [ ]
-  customurl: '/a-propos'
-- 
-  title: Activités
-  linktype: url
-  pagelink: [ ]
-  customurl: '/activites'
-- 
-  title: Équipe
-  linktype: url
-  pagelink: [ ]
-  customurl: '/equipe'
-- 
-  title: Contact
-  linktype: url
-  pagelink: [ ]
-  customurl: '/contact'
+----
+
+Menufooter-label: 
+
+----
+
+Menusocials-label: 
 
 ----
 
 Menufooter:
 
 - 
+  title: Qui sommes-nous
+  link: page://nsqKVzPDAAXvIR7Q
+- 
+  title: Projets
+  link: page://e0FCFXCbHrGo9efb
+- 
+  title: Nous soutenir
+  link: page://390Ye2yPvLTdF91A
+
+----
+
+Menusocials:
+
+- 
+  title: Instagram
+  link: https://www.instagram.com/projet_nk/
+- 
+  title: LinkedIn
+  link: >
+    https://www.linkedin.com/company/projet-nk/
+- 
+  title: Facebook
+  link: https://www.facebook.com/projetnk
+- 
+  title: Newsletter
+  link: '/#newsletter'
+
+----
+
+Menulegal-label: 
+
+----
+
+Menulegal:
+
+- 
   title: Mentions légales
-  link: [ ]
+  link: page://mdRxtdts9sfplTBd
 - 
   title: Politique de confidentialité
-  link: [ ]
+  link: page://7YgKviDf5GSO9Jsy
 - 
-  title: Plan du site
-  link: [ ]
+  title: Gestion des cookies
+  link: page://e6REu90OHywKhKN0
 
 ----
 
-Menusocials: 
+Metatemplate: {{ title }} • Projet NK
 
 ----
 
-Metatemplate: {{ title }} • Mon Organisation
+Metadescription: Projet NK explore les causes et les conséquences de la pollution chimique, en reliant scientifiques, communautés affectées, militants et politiques.
 
 ----
 
-Metadescription: Starter Kirby professionnel pour créer rapidement un site d'organisation moderne et performant.
-
-----
-
-Ogtemplate: {{ title }} • Mon Organisation
+Ogtemplate: {{ title }} • Projet NK
 
 ----
 
@@ -191,11 +126,11 @@ Ogdescription:
 
 ----
 
-Ogsitename: Mon Organisation
+Ogsitename: Projet NK
 
 ----
 
-Ogimage: 
+Ogimage: - file://A4goxZnC3ddOOPM7
 
 ----
 
@@ -224,27 +159,3 @@ Robotssnippet: true
 ----
 
 Socialmediaaccounts: 
-
-----
-
-Logotwo: 
-
-----
-
-Logothree: 
-
-----
-
-Logo: 
-
-----
-
-Meta-title: Starter Kirby Professionnel
-
-----
-
-Meta-description: Un starter Kirby moderne pour PME, associations et organisations. Prêt à l'emploi avec Tailwind CSS et Vite.
-
-----
-
-Organization-type: enterprise

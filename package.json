@@ -2,11 +2,22 @@
     "name": "projetnk",
     "type": "module",
     "scripts": {
-        "dev": "node assets/assets.config.js",
-        "build": "node assets/assets.config.js build"
+        "dev": "vite",
+        "build": "vite build",
+        "deploy": "node scripts/deploy.mjs",
+        "recuperer": "node scripts/pull-content.mjs"
+    },
+    "dependencies": {
+        "@swup/head-plugin": "^2.3.1",
+        "@swup/preload-plugin": "^3.2.12",
+        "gsap": "^3.15.0",
+        "swup": "^4.10.0"
     },
     "devDependencies": {
-        "browser-sync": "^2.29.3",
-        "esbuild": "^0.19.7"
+        "@tailwindcss/vite": "^4.3.3",
+        "basic-ftp": "^6.2.6",
+        "tailwindcss": "^4.3.3",
+        "vite": "^8.3.5",
+        "vite-plugin-kirby": "^6.0.0"
     }
 }

@@ -1,22 +1,49 @@
 title: Accueil
+icon: home
+
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  delete: false
+  duplicate: false
 
 tabs:
   hero:
     label: En-tête
+    icon: image
     fields:
       hero_title:
         label: Titre
         type: textarea
         buttons: false
+        size: small
       hero_image:
-        label: Image
+        label: Illustration
         type: files
-        template: image
         max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        uploads: image
+        width: 2/3
+      hero_image_mobile:
+        label: Illustration (mobile)
+        type: files
+        max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        uploads: image
+        width: 1/3
 
   about:
     label: Qui sommes-nous
+    icon: users
     fields:
+      about_headline:
+        label: Présentation
+        type: headline
       about_label:
         label: Sur-titre
         type: text
@@ -25,30 +52,47 @@ tabs:
         label: Texte
         type: textarea
         buttons: false
+      actions_headline:
+        label: Nos actions
+        type: headline
       actions_label:
         label: Sur-titre des actions
         type: textarea
         buttons: false
+        size: small
         width: 1/2
       actions:
         label: Actions
         type: structure
+        max: 3
+        columns:
+          text: true
         fields:
           text:
             label: Texte
             type: textarea
             buttons: false
+      nk_headline:
+        label: Natural Killers
+        type: headline
       nk_title:
-        label: Titre NK
+        label: Titre
         type: text
         width: 1/2
       nk_text:
-        label: Texte NK
+        label: Texte (gauche)
         type: textarea
         buttons: false
+        width: 1/2
+      nk_highlight:
+        label: Texte en gras (droite)
+        type: textarea
+        buttons: false
+        width: 1/2
 
   team:
     label: Équipe
+    icon: account
     fields:
       team_text:
         label: Texte d’introduction
@@ -57,89 +101,152 @@ tabs:
       team_label:
         label: Sur-titre équipe
         type: text
+        width: 1/2
       team:
         label: Équipe
         type: structure
-        fields:
+        columns:
           photo:
-            label: Photo
-            type: files
-            template: image
-            max: 1
+            width: 1/6
+          name: true
+          role: true
+        fields:
           name:
             label: Nom
             type: text
+            required: true
+            width: 1/2
+          photo:
+            label: Photo
+            type: files
+            max: 1
+            multiple: false
+            query: page.images
+            uploads: image
+            width: 1/2
           role:
             label: Fonction
             type: textarea
             buttons: false
+            size: small
       board_label:
         label: Sur-titre bureau
         type: text
+        width: 1/2
       board:
         label: Bureau
         type: structure
+        columns:
+          photo:
+            width: 1/6
+          label: true
+          name: true
+          role: true
         fields:
           label:
             label: Mandat
             type: text
-          photo:
-            label: Photo
-            type: files
-            template: image
-            max: 1
+            width: 1/2
           name:
             label: Nom
             type: text
+            required: true
+            width: 1/2
+          photo:
+            label: Photo
+            type: files
+            max: 1
+            multiple: false
+            query: page.images
+            uploads: image
           role:
             label: Fonction
             type: textarea
             buttons: false
+            size: small
       council_label:
         label: Sur-titre conseil scientifique
         type: text
+        width: 1/2
       council:
         label: Conseil scientifique
         type: structure
+        columns:
+          name: true
+          role: true
         fields:
           name:
             label: Nom
             type: text
+            required: true
           role:
             label: Fonction
             type: textarea
             buttons: false
+            size: small
 
   contact:
     label: Contact
+    icon: email
     fields:
+      contact_headline:
+        label: Contact
+        type: headline
       contact_label:
-        label: Sur-titre contact
+        label: Sur-titre
         type: text
         width: 1/2
       contact_title:
-        label: Titre contact
+        label: Titre
         type: text
         width: 1/2
       contact_text:
-        label: Texte contact
+        label: Texte
         type: textarea
         buttons: false
       contact_link:
-        label: Lien « Nous écrire »
+        label: Lien du bouton
         type: link
+        options:
+          - email
+          - url
+          - page
+        width: 1/2
+      contact_button:
+        label: Texte du bouton
+        type: text
+        placeholder: Nous écrire
+        width: 1/2
+      newsletter_headline:
+        label: Newsletter
+        type: headline
       newsletter_label:
-        label: Sur-titre newsletter
+        label: Sur-titre
         type: text
         width: 1/2
       newsletter_title:
-        label: Titre newsletter
+        label: Titre
         type: text
         width: 1/2
       newsletter_text:
-        label: Texte newsletter
+        label: Texte
         type: textarea
         buttons: false
-      newsletter_action:
-        label: URL du service newsletter
-        type: url
+      newsletter_placeholder:
+        label: Champ e-mail (texte indicatif)
+        type: text
+        placeholder: Votre adresse e-mail
+        width: 1/2
+      newsletter_button:
+        label: Texte du bouton
+        type: text
+        placeholder: Je m’inscris
+        width: 1/2
+      newsletter_mention:
+        label: Mention sous le formulaire
+        type: textarea
+        buttons: false
+        size: small
+        placeholder: En vous inscrivant, vous acceptez de recevoir nos e-mails. Désinscription possible à tout moment en un clic.
+
+  seo: seo/page

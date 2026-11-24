@@ -1,0 +1,35 @@
+title: Nous soutenir (page privée)
+icon: lock
+extends: pages/support
+
+options:
+  changeSlug: true
+  changeTemplate: false
+  delete: true
+  duplicate: true
+
+status:
+  draft: Brouillon
+  unlisted: En ligne
+
+tabs:
+  intro:
+    fields:
+      headline:
+        placeholder: "{{ site.children.template('support').first.headline }}"
+  faq:
+    fields:
+      faq_label:
+        placeholder: "{{ site.children.template('support').first.faq_label.or('FAQ') }}"
+  funders:
+    fields:
+      funders_label:
+        placeholder: "{{ site.children.template('support').first.funders_label }}"
+      funders_text:
+        placeholder: "{{ site.children.template('support').first.funders_text }}"
+  feature:
+    fields:
+      feature_title:
+        placeholder: "{{ site.children.template('support').first.feature_title }}"
+      feature_text:
+        placeholder: "{{ site.children.template('support').first.feature_text }}"

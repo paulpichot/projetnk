@@ -1,8 +1,11 @@
 /vendor/
 /media/
 /node_modules/
-/public/assets/dist/
+/dist/
+/.dev
+/site/config/vite.config.php
 .env
+/site/config/newsletter.php
 .DS_Store
 *.log
 
@@ -15,6 +18,14 @@
 !assets/icons/*.svg
 !assets/images/*
 *.ico
+!assets/favicon/*
 
 /site/cache/
 /site/sessions/
+/site/accounts/
+/.htpasswd
+
+# Identifiants de déploiement (scripts/deploy.mjs)
+.deploy.env
+.deploy-state.json
+.content-backups/

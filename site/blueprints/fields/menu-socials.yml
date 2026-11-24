@@ -1,13 +1,19 @@
 type: structure
-label: Menu réseaux sociaux
+label: Colonne « Nous suivre »
+columns:
+  title: true
+  link: true
 fields:
   title:
+    label: Texte affiché
     type: text
-    label: Titre affiché
+    required: true
+    width: 1/2
   link:
-    type: url
     label: Lien
-  image:
-    type: files
-    label: Image
-    max: 1
+    type: link
+    options:
+      - url
+      - custom
+    required: true
+    width: 1/2

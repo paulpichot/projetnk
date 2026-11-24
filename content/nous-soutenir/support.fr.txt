@@ -2,163 +2,284 @@ Title: Nous soutenir
 
 ----
 
-Headline: Financer Projet NK, c’est soutenir un catalyseur : une capacité à relier des acteurs qui ne se parlent pas et une expertise pour transformer des données diffuses en scandales impossibles à ignorer.
+Hero-image: - file://W04Q3ULnbms1erwF
 
 ----
 
-Video: 
+Rgive-campaign: 
 
 ----
 
-Theme: Santé & Environnement
+Headline:
+
+C’est grâce à votre engagement qu’ensemble, 
+nous pouvons agir pour la santé environnementale. Chacun de vos dons permet à Projet NK de poursuivre ses enquêtes, actions et plaidoyer contre la pollution chimique.
 
 ----
 
-Share_url: #
+Reasons:
+
+- 
+  title: Une contamination sans précédent
+  image:
+    - file://hg7hoRdS9SLMf6Nx
+  text: 'Depuis le début de l’histoire de l’humanité, nous n’avons jamais été autant exposés à des produits chimiques toxiques. Plus de 350’000 substances chimiques et leurs mélanges ont été enregistrés à la production et l’utilisation depuis les années 1950 [1].'
+- 
+  title: Un combat collectif
+  image:
+    - file://2Xd9dRAyLXbJiQ5d
+  text: >
+    Nous sommes tous contaminés par la
+    pollution chimique, mais pas tous de la
+    même manière. Projet NK se bat aux
+    côtés des communautés les plus
+    affectées, de journalistes et de
+    scientifiques pour faire cesser
+    l’empoisonnement du vivant.
+- 
+  title: Face aux lobbys, votre don compte
+  image:
+    - file://bBQlZXG48uSfFzNZ
+  text: >
+    Alors qu’en Europe, la vente de
+    produits chimiques atteint plus de 800
+    milliards d’euros par an, votre don
+    peut nous aider à lutter contre les
+    lobbys s’efforçant de déréguler les
+    lois protégeant notre santé.
 
 ----
 
-Follow_url: #
+Actions-title: Projet NK agit pour
 
 ----
 
-Contributions: 342772
+Actions: <ul><li><p>Faire éclater les scandales</p></li><li><p>Porter les voix des communautés concernées</p></li><li><p>Mobiliser les citoyens</p></li><li><p>Changer les lois</p></li></ul>
 
 ----
 
-Goal: 10000
+Actions-text:
+
+Mais nous ne pouvons pas accomplir ce travail sans vous. Votre soutien peut aider à enquêter, organiser collectivement, produire du contenu pertinent et faire bouger les choses pour que tous puissent avoir droit à un environnement sain.
+
+Faites un don aujourd’hui et permettez-nous d’agir plus vite que la pollution n’avance.
 
 ----
 
-Next_goal: 400000
+Expenses-label: Répartition de nos dépenses
 
 ----
 
-Contributors: 185978
+Expenses-text:
+
+Chaque don nous permet de recruter les bonnes personnes, d’aller chercher
+de nouveaux financements et d’assurer la pérennité de la structure.
 
 ----
 
-End_date: 2026-10-24
+Expenses-total: ≈ 40 k€
 
 ----
 
-Minimum: Contribution libre, à partir de 1 €
+Expenses-total-label: par mois
 
 ----
 
-Donate_url: #
+Expenses:
 
-----
-
-Tax: % Ce don est défiscalisable !
-
-----
-
-Secure: Paiement sécurisé et sans engagement
-
-----
-
-Secure_url: #
-
-----
-
-Budget_label: Répartition de nos dépenses
-
-----
-
-Budget_text: Chaque don nous permet de recruter les bonnes personnes, d’aller chercher de nouveaux financements et d’assurer la pérennité de la structure.
-
-----
-
-Budget_total: ≈ 40 k€
-
-----
-
-Budget_period: par mois
-
-----
-
-Budget:
-
--
-  title: Salaires de l’équipe
-  text: 4 salarié·es et 3 freelances
+- 
+  label: Salaires de l’équipe
+  color: '#FF8257'
+  detail: 4 salarié·es et 3 freelances
   amount: ≈ 30 k€ / mois
-  share: 75
--
-  title: Communication & fundraising
-  text: DA, site internet…
+  percent: 75
+- 
+  label: 'Communication & fundraising'
+  color: '#F0E2CC'
+  detail: DA, site internet…
   amount: ≈ 7 k€ / mois
-  share: 17.5
--
-  title: Frais de fonctionnement
-  text: Loyer, comptable, avocats…
+  percent: 17.5
+- 
+  label: Frais de fonctionnement
+  color: '#377379'
+  detail: Loyer, comptable, avocats…
   amount: ≈ 3 k€ / mois
-  share: 7.5
+  percent: 7.5
+
+----
+
+Faq-label: 
 
 ----
 
 Faq:
 
--
-  question: Concrètement, à quoi vont servir les dons ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
--
-  question: Je souhaite donner en une fois, est-ce possible ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
--
-  question: À quelle date serai-je prélevé·e de mon don mensuel ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
--
-  question: Je souhaite défiscaliser mon don, est-ce possible ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
--
-  question: Je souhaite arrêter mon don mensuel, est-ce possible ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
--
-  question: Je ne parviens pas à donner en ligne mais je souhaite soutenir, comment faire ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
--
-  question: Je n’ai pas les moyens de donner mais je souhaite soutenir, est-ce possible ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
--
-  question: Mon moyen de paiement n’est plus actif, que faire ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
--
-  question: J’ai encore des questions, qui contacter ?
-  answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- 
+  question: >
+    Concrètement, à quoi vont servir les
+    dons ?
+  answer: 'L’essentiel de vos dons finance les salaires de l’équipe (environ 75 %). Le reste couvre la communication et la collecte de fonds (environ 17 %) ainsi que les frais de fonctionnement : loyer, comptabilité, avocats (environ 8 %).'
+- 
+  question: >
+    Je souhaite donner en une fois, est-ce
+    possible ?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+- 
+  question: >
+    À quelle date serai-je prélevé·e de
+    mon don mensuel ?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+- 
+  question: >
+    Je souhaite défiscaliser mon don,
+    est-ce possible ?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+- 
+  question: >
+    Je souhaite arrêter mon don mensuel,
+    est-ce possible ?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+- 
+  question: >
+    Je ne parviens pas à donner en ligne
+    mais je souhaite soutenir, comment faire
+    ?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+- 
+  question: >
+    Je n’ai pas les moyens de donner mais
+    je souhaite soutenir, est-ce possible ?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+- 
+  question: >
+    Mon moyen de paiement n’est plus
+    actif, que faire ?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+- 
+  question: >
+    J’ai encore des questions, qui
+    contacter ?
+  answer: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
 
 ----
 
-Funders_label: Principaux financeurs
+Funders-label: Principaux financeurs
 
 ----
 
-Funders_text: Nous bénéficions de financements institutionnels et privés. Aujourd’hui, nous sommes soutenus par ECF (European Climate Foundation) et GreenGot, à hauteur d’environ 25% de notre budget annuel. Un grand merci à eux.
+Funders-text: Nous bénéficions de financements institutionnels et privés. Aujourd’hui, nous sommes soutenus par ECF (European Climate Foundation) et GreenGot, à hauteur d’environ 25% de notre budget annuel. Un grand merci à eux.
 
 ----
 
 Funders:
 
-- green-got.png
-- ecf.png
+- file://N2CSkSBFgaH2d8x1
+- file://prFrz1DseinhFhcc
 
 ----
 
-Feature_show: true
+Feature-show: false
 
 ----
 
-Feature_title: Lorem ipsum dolor sit amet, consectetur adipiscing
+Feature-title: Lorem ipsum dolor sit amet, consectetur adipiscing
 
 ----
 
-Feature_text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Feature-text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 ----
 
-Feature_video: 
+Feature-video: https://www.youtube.com/watch?v=xBr3ZUXkHSg
 
 ----
 
-Feature_label: Lorem ipsum · 2:45
+Feature-label: Lorem ipsum · 2:45
+
+----
+
+Feature-poster: - file://L1v3n85e5Q206zFw
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: 
+
+----
+
+Robotsfollow: 
+
+----
+
+Robotsarchive: 
+
+----
+
+Robotsimageindex: 
+
+----
+
+Robotssnippet: 
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 390Ye2yPvLTdF91A

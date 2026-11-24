@@ -38,3 +38,7 @@ Direction artistique et design : [nom]. Développement : [nom]. Photographies : 
 ## Responsabilité
 
 Projet NK s’efforce de fournir des informations exactes et à jour, mais ne saurait être tenue responsable des erreurs, omissions ou de l’indisponibilité du site. Les liens vers des sites tiers n’engagent pas la responsabilité de l’association.
+
+----
+
+Uuid: mdRxtdts9sfplTBd

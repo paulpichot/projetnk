@@ -1,0 +1,139 @@
+Title: Cartographie citoyenne des cancers chez les jeunes
+
+----
+
+Headline: Cancers chez les jeunes : un nouvel outil participatif pour mieux comprendre l’exposition aux polluants chimiques
+
+----
+
+Lead: Plateforme participative répertoriant les cas de cancers chez les jeunes.
+
+----
+
+Tool:
+
+label: Outil participatif
+button: Accéder à la cartographie citoyenne
+text: |
+  Signalez un cas, consultez la carte,
+  agissons ensemble.
+link: '#'
+
+----
+
+Cover: 
+
+----
+
+Text: [{"content":{"text":"<p>Chaque année en France, environ 500 enfants meurent d’un cancer. L’équivalent de vingt classes d’écoles.&nbsp;</p><p>Mais chez les jeunes, un seul diagnostic de cancer est déjà une anomalie. La génétique expliquerait en effet qu’une fraction des cas et, bien que les causes ne soient toujours pas très bien définies, les chercheurs pointent de plus en plus vers les facteurs de risques environnementaux.&nbsp;</p><p>Bien que des registres des cancers existent en France, ceux-ci refusent de donner accès aux informations qu’ils renferment aux communautés affectées, aux chercheurs indépendants ou aux journalistes. Les registres officiels ne prennent pas non plus en compte le parcours d’exposition des malades, c’est-à-dire toutes les pollutions auxquelles ils ont pu être exposés durant leur vie ou celles de leurs parents.</p><p>En collaboration avec <strong>Cancer colère, Diasporas solidaires avec les victimes de l’empoisonnement colonial (DSAVEC) et Data for Good</strong>, Projet NK a lancé une plateforme participative permettant aux jeunes atteints d’un cancer ou leurs proches de recenser leur histoire sur une carte.&nbsp;</p><p>Les témoignages sont accessibles publiquement sur la plateforme avec le consentement des personnes participantes. En revanche, la base de données inédite sur le parcours d’exposition sera disponible uniquement sous demande, au cas par cas, pour des projets de recherches.&nbsp;</p><p>Cette plateforme est participative, nous avons besoin que les personnes concernées se mobilisent pour y contribuer. Car c’est seulement en reprenant le pouvoir et le contrôle citoyen sur la maladie que nous parviendrons ensemble à lutter contre l’empoisonnement industriel.</p>"},"id":"3f369c6d-2550-4d43-b5ef-47648a1ba90a","isHidden":false,"type":"text"}]
+
+----
+
+Tags: Santé publique, Données, Carte, cancers, enfants
+
+----
+
+Period: Novembre 2026
+
+----
+
+Upcoming: false
+
+----
+
+Excerpt:
+
+Cancers chez les jeunes : 
+un nouvel outil participatif pour mieux comprendre l’exposition aux polluants chimiques
+
+----
+
+Thumbnail: - file://UbD3tfDAoc694cDK
+
+----
+
+Partner: 
+
+----
+
+Author: Philippine & Lila
+
+----
+
+Author-photo: 
+
+----
+
+Published: 2026-11-12
+
+----
+
+Reading-time: 6
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: 
+
+----
+
+Robotsfollow: 
+
+----
+
+Robotsarchive: 
+
+----
+
+Robotsimageindex: 
+
+----
+
+Robotssnippet: 
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: QEAxvoEdLGcukcEV

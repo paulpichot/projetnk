@@ -1,132 +1,198 @@
 title: Nous soutenir
 icon: heart
 
+options:
+  changeSlug: false
+  changeTemplate: false
+  delete: false
+  duplicate: false
+
 tabs:
   intro:
-    label: Campagne
-    columns:
-      main:
-        width: 2/3
+    label: Don et accroche
+    icon: heart
+    fields:
+      hero_image:
+        label: Photo du haut de page
+        type: files
+        max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        uploads: image
+        width: 1/2
+      rgive_campaign:
+        label: Campagne RGive (formulaire de don)
+        type: url
+        placeholder: https://soutenir.projetnk.org/donner/
+        width: 1/2
+      rgive_goal:
+        label: Objectif
+        type: number
+        min: 1
+        after: contributions
+        placeholder: "500"
+        width: 1/3
+      rgive_contributors:
+        label: Contributions
+        type: number
+        min: 0
+        width: 1/3
+      rgive_deadline:
+        label: Fin de collecte
+        type: date
+        time: true
+        width: 1/3
+      headline:
+        label: Accroche
+        type: textarea
+        buttons: false
+        size: small
+
+  reasons:
+    label: Pourquoi nous soutenir
+    icon: image
+    fields:
+      reasons:
+        label: Blocs photo et texte
+        type: structure
+        columns:
+          image:
+            width: 1/6
+          title: true
         fields:
-          headline:
-            label: Accroche
+          title:
+            label: Titre
             type: textarea
             buttons: false
-          video:
-            label: Vidéo (YouTube ou Vimeo)
-            type: url
-          video_poster:
-            label: Aperçu de la vidéo
+            size: small
+          image:
+            label: Photo
             type: files
-            uploads: image
             max: 1
-          theme:
-            label: Thématique
-            type: text
-            width: 1/3
-          share_url:
-            label: Lien « Partager »
-            type: url
-            width: 1/3
-          follow_url:
-            label: Lien « Suivre »
-            type: url
-            width: 1/3
-      sidebar:
-        width: 1/3
-        fields:
-          contributions:
-            label: Contributions
-            type: number
-            width: 1/2
-          goal:
-            label: Objectif
-            type: number
-            width: 1/2
-          next_goal:
-            label: Prochain objectif
-            type: number
-            width: 1/2
-          contributors:
-            label: Contributeur·rices
-            type: number
-            width: 1/2
-          end_date:
-            label: Fin de la campagne
-            type: date
-          minimum:
-            label: Mention montant
-            type: text
-          donate_url:
-            label: Lien « Contribuer »
-            type: url
-          tax:
-            label: Mention fiscale
-            type: text
-          secure:
-            label: Mention paiement
-            type: text
-          secure_url:
-            label: Lien de la mention paiement
-            type: url
+            multiple: false
+            query: page.images
+            uploads: image
+          text:
+            label: Texte
+            type: textarea
+            buttons: false
+      actions_title:
+        label: Titre sous les blocs
+        type: text
+      actions:
+        label: Liste à puces
+        type: list
+      actions_text:
+        label: Texte sous la liste
+        type: textarea
+        buttons: false
 
-  budget:
+  expenses:
     label: Dépenses
+    icon: chart
     fields:
-      budget_label:
+      expenses_label:
         label: Sur-titre
         type: text
+        placeholder: Répartition de nos dépenses
         width: 1/2
-      budget_text:
+      expenses_text:
         label: Texte
         type: textarea
         buttons: false
-      budget_total:
+        size: small
+      expenses_total:
         label: Total
         type: text
+        placeholder: ≈ 40 k€
         width: 1/2
-      budget_period:
-        label: Période
+      expenses_total_label:
+        label: Sous le total
         type: text
+        placeholder: par mois
         width: 1/2
-      budget:
-        label: Postes de dépenses
+      expenses:
+        label: Postes de dépense
         type: structure
+        columns:
+          color:
+            width: 1/12
+          label: true
+          amount: true
+          percent: true
         fields:
-          title:
+          label:
             label: Poste
             type: text
-          text:
+            required: true
+            width: 1/2
+          color:
+            label: Couleur dans le graphique
+            type: color
+            options:
+              "#FF8257": Corail
+              "#F0E2CC": Sable
+              "#377379": Ardoise
+              "#282622": Encre
+              "#B05536": Corail foncé
+            width: 1/2
+          detail:
             label: Détail
             type: text
+            width: 1/2
           amount:
             label: Montant
             type: text
-          share:
-            label: Part (%)
+            placeholder: ≈ 30 k€ / mois
+            width: 1/2
+          percent:
+            label: Part
             type: number
-            step: 0.1
+            step: 0.5
+            min: 0
+            max: 100
+            after: "%"
+            required: true
+            width: 1/2
 
   faq:
     label: FAQ
+    icon: question
     fields:
+      faq_label:
+        label: Sur-titre
+        type: text
+        placeholder: FAQ
+        width: 1/2
       faq:
         label: Questions
         type: structure
+        columns:
+          question: true
         fields:
           question:
             label: Question
             type: text
+            required: true
           answer:
             label: Réponse
             type: textarea
+            buttons:
+              - bold
+              - italic
+              - link
+              - email
+              - ul
 
   funders:
     label: Financeurs
+    icon: users
     fields:
       funders_label:
         label: Sur-titre
         type: text
+        width: 1/2
       funders_text:
         label: Texte
         type: textarea
@@ -134,10 +200,17 @@ tabs:
       funders:
         label: Logos
         type: files
+        layout: cards
+        size: small
+        image:
+          back: white
+          cover: false
+        query: page.images
         uploads: image
 
   feature:
     label: Vidéo
+    icon: video
     fields:
       feature_show:
         label: Afficher la section
@@ -145,18 +218,35 @@ tabs:
       feature_title:
         label: Titre
         type: text
+        when:
+          feature_show: true
       feature_text:
         label: Texte
         type: textarea
         buttons: false
+        when:
+          feature_show: true
       feature_video:
         label: Vidéo (YouTube ou Vimeo)
         type: url
-      feature_poster:
-        label: Aperçu de la vidéo
-        type: files
-        uploads: image
-        max: 1
+        width: 1/2
+        when:
+          feature_show: true
       feature_label:
         label: Étiquette
         type: text
+        width: 1/2
+        when:
+          feature_show: true
+      feature_poster:
+        label: Aperçu de la vidéo
+        type: files
+        max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        uploads: image
+        when:
+          feature_show: true
+
+  seo: seo/page

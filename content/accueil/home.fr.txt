@@ -4,12 +4,16 @@ Title: Accueil
 
 Hero-title:
 
-Exposer la contamination
-chimique. Agir pour la santé.
+Riposte citoyenne contre 
+la contamination chimique.
 
 ----
 
-Hero-image: - hero.jpg
+Hero-image: - file://QAHKRW872kUCrLPO
+
+----
+
+Hero-image-mobile: - file://njDljNrWzSuQOrJj
 
 ----
 
@@ -53,11 +57,18 @@ Actions:
 
 ----
 
-Nk-title: NK : Natural Killers
+Nk-title: Pourquoi Projet NK ?
 
 ----
 
-Nk-text: Natural Killers : ces cellules sentinelles du système immunitaire repèrent et détruisent rapidement les cellules infectées ou anormales.
+Nk-text:
+
+Dans notre corps, des milliards de sentinelles veillent en permanence.
+Leur mission : repérer les cellules cancéreuses et les virus, et tenter de les éliminer.
+
+----
+
+Nk-highlight: On les appelle les cellules NK : Natural Killers.
 
 ----
 
@@ -79,38 +90,38 @@ Team-label: L’équipe
 Team:
 
 - 
-  photo:
-    - lila-sakata.jpg
-  name: Lila Sakata
-  role: |
-    Responsable scientifique
-    des programmes
-- 
-  photo:
-    - camille-etienne.jpg
   name: Camille Etienne
+  photo:
+    - file://9JnCap9DEWOMR1z2
   role: Secrétaire générale
 - 
+  name: Lila Sakata
   photo:
-    - philippine-coutau.jpg
-  name: Philippine Coutau
+    - file://YRJ37fV0IC2urTww
   role: |
     Responsable scientifique
     des programmes
 - 
+  name: Philippine Coutau
   photo:
-    - solal-moisan.jpg
-  name: Solal Moisan
+    - file://rgJDUlye5yZ2K9pD
   role: |
-    Responsable de la
-    communication
+    Responsable scientifique
+    des programmes
 - 
-  photo:
-    - saskia-horvat.jpg
   name: Saskia Horvat
+  photo:
+    - file://F5AmmoZZ7Ntw5SlV
   role: |
     Responsable du
     développement
+- 
+  name: Solal Moisan
+  photo:
+    - file://Or1D28U2iN81XVTs
+  role: |
+    Responsable de la
+    communication
 
 ----
 
@@ -122,23 +133,23 @@ Board:
 
 - 
   label: Présidente
-  photo:
-    - eleonore-mourre.jpg
   name: Eléonore Mourre
+  photo:
+    - file://yc7Algc5fWZGDA3k
   role: |
     Médecin spécialisée en
     immunologie clinique
 - 
   label: Trésorière
-  photo:
-    - aurelie-mercier.jpg
   name: Aurélie Mercier
+  photo:
+    - file://taVWbrcQlQDxsU6l
   role: Chargée de projet éducation
 - 
   label: Secrétaire
-  photo:
-    - leonore-baulac.jpg
   name: Léonore Baulac
+  photo:
+    - file://i6FBMw4POaX44E7n
   role: Danseuse étoile
 
 ----
@@ -154,10 +165,14 @@ Council:
   role: Directrice de recherche honoraire INSERM
 - 
   name: Romain Figuiere
-  role: Post-doctorant à l’Université de Stockholm
+  role: >
+    Post-doctorant à l’Université de
+    Stockholm
 - 
   name: René Nissen
-  role: Doctorant à l’Université de Wageningen
+  role: >
+    Doctorant à l’Université de
+    Wageningen
 - 
   name: Ayisha Khalid
   role: Doctorante à l’Université d’Oxford
@@ -168,7 +183,9 @@ Council:
     l’University College London
 - 
   name: Pascal Pineau
-  role: Directeur de recherche à l’Institut Pasteur
+  role: >
+    Directeur de recherche à l’Institut
+    Pasteur
 - 
   name: Moritz Hunsmann
   role: Chargé de recherche au CNRS
@@ -191,12 +208,17 @@ Contact-title: Nous contacter
 
 Contact-text:
 
-Une question sur nos projets, une proposition de partenariat, une demande
-presse ou l’envie de témoigner ? Notre équipe vous répond sous quelques jours.
+N’hésitez pas à nous envoyer un message si vous avez une question sur nos projets, 
+une alerte à lancer, une proposition de partenariat, une demande de presse 
+ou toute autre information à nous partager.
 
 ----
 
 Contact-link: mailto:contact@projetnk.org
+
+----
+
+Contact-button: 
 
 ----
 
@@ -210,9 +232,89 @@ Newsletter-title: Restez informé·e
 
 Newsletter-text:
 
-Recevez l’essentiel de nos enquêtes, l’avancée de nos combats
-et les actions auxquelles participer.
+Des informations régulières sur nos combats, 
+nos enquêtes et les actions auxquelles participer.
+
+----
+
+Newsletter-placeholder: 
+
+----
+
+Newsletter-button: 
+
+----
+
+Newsletter-mention: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: 
+
+----
+
+Robotsfollow: 
+
+----
+
+Robotsarchive: 
+
+----
+
+Robotsimageindex: 
+
+----
+
+Robotssnippet: 
+
+----
+
+Metainherit: 
 
 ----
 
 Newsletter-action: 
+
+----
+
+Uuid: nsqKVzPDAAXvIR7Q

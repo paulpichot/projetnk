@@ -6,14 +6,80 @@ Launch: 2026-11-27 09:00:00
 
 ----
 
-Email: contact@projet-nk.org
+Email: contact@projetnk.org
 
 ----
 
-Text:
+Text: Recevez l’essentiel de nos enquêtes, l’avancée de nos combats et les actions auxquelles participer.
 
-Recevez l’essentiel de nos enquêtes, l’avancée de nos combats et les actions auxquelles participer.
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: 
+
+----
+
+Robotsfollow: 
+
+----
+
+Robotsarchive: 
+
+----
+
+Robotsimageindex: 
+
+----
+
+Robotssnippet: 
+
+----
+
+Metainherit: 
 
 ----
 
 Newsletter-action: 
+
+----
+
+Uuid: 853h5jbXFHPoEeim

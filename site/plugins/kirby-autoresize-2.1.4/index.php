@@ -18,7 +18,10 @@ function autoresize($file) {
                 kirby()->thumb($file->root(), $file->root(), [
                     'width'   => $maxWidth,
                     'height'  => $maxHeight,
-                    'quality' => $quality
+                    'quality' => $quality,
+                    // Format d'origine conservé : sans cela, le format WebP des vignettes (thumbs.format, config.php)
+                    // s'appliquerait et réécrirait l'original en WebP sous son extension .jpg/.png
+                    'format' => null,
                 ]);
             }
             catch (Exception $e) {

@@ -1,0 +1,25 @@
+title: Confirmation newsletter
+icon: email
+
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  delete: false
+  duplicate: false
+
+fields:
+  heading:
+    label: Titre
+    type: text
+    placeholder: Merci !
+  text:
+    label: Texte
+    type: textarea
+    buttons: false
+    size: small
+  button:
+    label: Texte du bouton
+    type: text
+    placeholder: Retour à l’accueil
+    width: 1/2

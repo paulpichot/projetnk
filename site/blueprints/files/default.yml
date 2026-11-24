@@ -1,9 +1,3 @@
-fields:
-  copyright:
-    label: Copyright
-    type: text
-    icon: title
-  alternate:
-    label: Texte alternatif
-    type: text
-    icon: title
+title: Fichier
+extends: files/image
+accept: true

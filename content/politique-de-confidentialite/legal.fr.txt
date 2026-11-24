@@ -39,3 +39,7 @@ Vos données sont destinées exclusivement à l’équipe de Projet NK et à nos
 ## Vos droits
 
 Conformément au RGPD, vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité de vos données. Pour les exercer, écrivez à contact@projet-nk.org. Vous pouvez également introduire une réclamation auprès de la CNIL (www.cnil.fr).
+
+----
+
+Uuid: 7YgKviDf5GSO9Jsy

@@ -1,5 +1,12 @@
 # Kirby .htaccess
 
+# Accès au site protégé par mot de passe (avant le lancement public) : identifiants dans .htpasswd, à la racine
+# du site comme ce fichier. Apache exige le chemin absolu du serveur. Bloc à retirer au lancement.
+AuthType Basic
+AuthName "Projet NK"
+AuthUserFile /home/clients/77fbeacd0f5484f95bb2c140cb777f7e/sites/projetnk.ilcodeilcodepaulpichot.fr/.htpasswd
+Require valid-user
+
 # rewrite rules
 <IfModule mod_rewrite.c>
 

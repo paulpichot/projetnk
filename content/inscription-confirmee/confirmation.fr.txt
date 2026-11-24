@@ -1,0 +1,17 @@
+Title: Inscription confirmée
+
+----
+
+Heading: Merci !
+
+----
+
+Text: Votre inscription est bien confirmée. Notre première newsletter arrive dans les prochains jours. D’ici là, bienvenue parmi nous !
+
+----
+
+Button: Retour à l’accueil
+
+----
+
+Uuid: O1eF68DkCUprCnNW

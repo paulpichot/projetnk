@@ -10,32 +10,6 @@ Intro: Un cookie est un petit fichier déposé sur votre appareil lors de votre 
 
 ----
 
-Categories:
-
-- 
-  type: essentials
-  title: Cookies essentiels
-  text: >
-    Nécessaires au fonctionnement du site
-    (sécurité, mémorisation de vos choix). Ils
-    ne peuvent pas être désactivés.
-- 
-  type: audience
-  title: Mesure d’audience
-  text: >
-    Nous permettent de mesurer la
-    fréquentation du site de façon anonyme
-    pour l’améliorer.
-- 
-  type: social
-  title: Réseaux sociaux et vidéos
-  text: >
-    Permettent d’afficher les vidéos
-    intégrées et les boutons de partage des
-    réseaux sociaux.
-
-----
-
 Text:
 
 ## Durée de conservation
@@ -49,3 +23,7 @@ Vous pouvez aussi bloquer ou supprimer les cookies directement depuis les régla
 ## En savoir plus
 
 Pour toute question, écrivez à contact@projet-nk.org ou consultez notre politique de confidentialité. Plus d’informations sur le site de la CNIL (www.cnil.fr).
+
+----
+
+Uuid: e6REu90OHywKhKN0

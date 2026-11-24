@@ -10,4 +10,7 @@ fields:
   text:
     label: Texte
     type: textarea
-    buttons: false
+    buttons:
+      - bold
+      - italic
+      - link

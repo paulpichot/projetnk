@@ -1,4 +1,5 @@
+    <?php snippet('schema') ?>
     <?php snippet('seo/schemas') ?>
-    <?= js('assets/main.min.js', ['defer' => true]) ?>
+    <?= vite()->js('index.js') ?>
 </body>
 </html>
